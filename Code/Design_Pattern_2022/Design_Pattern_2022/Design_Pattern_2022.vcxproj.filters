@@ -25,6 +25,12 @@
     <Filter Include="源文件\Farming">
       <UniqueIdentifier>{5aa4b349-907e-4b85-9c4a-dd63475243fb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\Test">
+      <UniqueIdentifier>{4043a1e5-cdbd-433d-9536-5df73e8db97c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Farming">
+      <UniqueIdentifier>{99d21d52-20f5-4081-b2e3-12d4c614904a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -34,7 +40,7 @@
       <Filter>源文件\DAO</Filter>
     </ClCompile>
     <ClCompile Include="DB_init.cpp">
-      <Filter>源文件\DAO</Filter>
+      <Filter>源文件\Test</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
