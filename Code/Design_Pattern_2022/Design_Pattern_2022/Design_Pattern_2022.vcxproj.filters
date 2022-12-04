@@ -34,6 +34,12 @@
     <Filter Include="源文件\Farming\breedBuilderImpl">
       <UniqueIdentifier>{b25d9829-3bb2-46a7-b0ef-05bea37ff888}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\Farming\farmingFactory">
+      <UniqueIdentifier>{5a70ac94-dbd1-424d-a604-12714224fbd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Test">
+      <UniqueIdentifier>{3d29b7aa-1036-4b2f-aa31-475e9b23fd28}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -54,6 +60,15 @@
     <ClCompile Include="chickenBuilderImpl.cpp">
       <Filter>源文件\Farming\breedBuilderImpl</Filter>
     </ClCompile>
+    <ClCompile Include="Wang_farmingFactory.cpp">
+      <Filter>源文件\Farming\farmingFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="Li_farmingFactory.cpp">
+      <Filter>源文件\Farming\farmingFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="FarmStocking.cpp">
+      <Filter>源文件\Test</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Data.h">
@@ -61,6 +76,12 @@
     </ClInclude>
     <ClInclude Include="breedBuilder.h">
       <Filter>头文件\Farming</Filter>
+    </ClInclude>
+    <ClInclude Include="farmingFactory.h">
+      <Filter>头文件\Farming</Filter>
+    </ClInclude>
+    <ClInclude Include="test.h">
+      <Filter>头文件\Test</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

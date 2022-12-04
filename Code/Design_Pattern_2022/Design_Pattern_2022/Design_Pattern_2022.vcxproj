@@ -143,12 +143,17 @@
     <ClCompile Include="chickenBuilderImpl.cpp" />
     <ClCompile Include="farmingDAOImpl.cpp" />
     <ClCompile Include="DB_init.cpp" />
+    <ClCompile Include="FarmStocking.cpp" />
+    <ClCompile Include="Li_farmingFactory.cpp" />
+    <ClCompile Include="Wang_farmingFactory.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="pigBuilderImpl.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Data.h" />
     <ClInclude Include="breedBuilder.h" />
+    <ClInclude Include="farmingFactory.h" />
+    <ClInclude Include="test.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
