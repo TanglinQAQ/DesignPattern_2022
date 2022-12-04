@@ -46,6 +46,18 @@
     <Filter Include="源文件\Facade">
       <UniqueIdentifier>{0f0bebf5-469b-4206-ac4b-50ba63c0dd98}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\Visitor">
+      <UniqueIdentifier>{2bf4bff6-d301-4c54-958c-dd017acb485a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Visitor">
+      <UniqueIdentifier>{2b9e6c92-6118-4e39-bbed-20d0ac6d74c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\State">
+      <UniqueIdentifier>{35fffb2a-6fa7-4dea-9d24-1960f355687b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\State">
+      <UniqueIdentifier>{dfa07875-3a65-43bd-818d-9fcdd8ef3998}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -81,6 +93,18 @@
     <ClCompile Include="Center factory.cpp">
       <Filter>源文件\Facade</Filter>
     </ClCompile>
+    <ClCompile Include="Visitor.cpp">
+      <Filter>源文件\Visitor</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>源文件\State</Filter>
+    </ClCompile>
+    <ClCompile Include="StateManage.cpp">
+      <Filter>源文件\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="VisitorManage.cpp">
+      <Filter>源文件\Test</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Data.h">
@@ -97,6 +121,12 @@
     </ClInclude>
     <ClInclude Include="Center factory.h">
       <Filter>头文件\Appearance</Filter>
+    </ClInclude>
+    <ClInclude Include="Visitor.h">
+      <Filter>头文件\Visitor</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>头文件\State</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

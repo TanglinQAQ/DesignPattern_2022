@@ -2,7 +2,6 @@
 #include <iostream>
 #include "Data.h"
 #include "test.h"
-#include"Center factory.h"
 using namespace std;
 using namespace DATA;
 
@@ -17,6 +16,14 @@ int main()
 		case 1:
 			//测试采购
 			FarmStocking_Client();
+			break;
+		case 2:
+			//测试生产流程
+			State_manage();
+			break;
+		case 3:
+			//测试访问工厂
+			Visitor_manage();
 			break;
 		default:
 			break;
