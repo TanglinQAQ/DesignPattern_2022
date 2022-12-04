@@ -17,6 +17,10 @@ int main()
 			//测试采购
 			FarmStocking_Client();
 			break;
+		case 2:
+			//测试生产流程
+			State_manage();
+			break;
 		default:
 			break;
 		}
