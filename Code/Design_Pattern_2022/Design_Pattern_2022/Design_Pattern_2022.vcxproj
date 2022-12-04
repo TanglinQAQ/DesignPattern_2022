@@ -139,12 +139,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="cattleBuilderImpl.cpp" />
+    <ClCompile Include="chickenBuilderImpl.cpp" />
     <ClCompile Include="farmingDAOImpl.cpp" />
     <ClCompile Include="DB_init.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="pigBuilderImpl.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Data.h" />
+    <ClInclude Include="breedBuilder.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

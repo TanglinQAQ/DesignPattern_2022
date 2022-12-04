@@ -31,6 +31,9 @@
     <Filter Include="头文件\Farming">
       <UniqueIdentifier>{99d21d52-20f5-4081-b2e3-12d4c614904a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\Farming\breedBuilderImpl">
+      <UniqueIdentifier>{b25d9829-3bb2-46a7-b0ef-05bea37ff888}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -42,10 +45,22 @@
     <ClCompile Include="DB_init.cpp">
       <Filter>源文件\Test</Filter>
     </ClCompile>
+    <ClCompile Include="cattleBuilderImpl.cpp">
+      <Filter>源文件\Farming\breedBuilderImpl</Filter>
+    </ClCompile>
+    <ClCompile Include="pigBuilderImpl.cpp">
+      <Filter>源文件\Farming\breedBuilderImpl</Filter>
+    </ClCompile>
+    <ClCompile Include="chickenBuilderImpl.cpp">
+      <Filter>源文件\Farming\breedBuilderImpl</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Data.h">
       <Filter>头文件\DAO</Filter>
+    </ClInclude>
+    <ClInclude Include="breedBuilder.h">
+      <Filter>头文件\Farming</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

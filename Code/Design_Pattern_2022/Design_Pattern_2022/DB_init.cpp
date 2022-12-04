@@ -15,3 +15,5 @@ Database::Database()
 	this->insert_farm(f2);
 	cout << "********" << "数据库初始化结束" << "********" << endl;
 }
+
+
