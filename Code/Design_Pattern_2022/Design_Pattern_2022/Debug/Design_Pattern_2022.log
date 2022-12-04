@@ -1,24 +1,5 @@
-﻿  AdapterProcessing.cpp
-  CattleAdapter.cpp
-  cattleBuilderImpl.cpp
-  CattleImpl.cpp
-  Center factory.cpp
-D:\Users\ZZL\Documents\GitHub\DesignPattern_2022\Code\Design_Pattern_2022\Design_Pattern_2022\Center factory.cpp(40,12): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+﻿  cattleBuilderImpl.cpp
   chickenBuilderImpl.cpp
-  ChickenImpl.cpp
-  Facade.cpp
   farmingDAOImpl.cpp
-D:\Users\ZZL\Documents\GitHub\DesignPattern_2022\Code\Design_Pattern_2022\Design_Pattern_2022\farmingDAOImpl.cpp(17,16): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\xltx-\Desktop\TJ\design_pattern\DesignPattern_2022\Code\Design_Pattern_2022\Design_Pattern_2022\farmingDAOImpl.cpp(17,16): warning C4018: “<”: 有符号/无符号不匹配
   DB_init.cpp
-  FarmStocking.cpp
-  Li_farmingFactory.cpp
-  ProcessFactoryImpl.cpp
-  State.cpp
-  StateManage.cpp
-  Visitor.cpp
-  VisitorManage.cpp
-  Wang_farmingFactory.cpp
-  main.cpp
-  pigBuilderImpl.cpp
-  正在生成代码...
-  Design_Pattern_2022.vcxproj -> D:\Users\ZZL\Documents\GitHub\DesignPattern_2022\Code\Design_Pattern_2022\Debug\Design_Pattern_2022.exe
