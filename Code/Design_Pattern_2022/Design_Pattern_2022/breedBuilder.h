@@ -20,7 +20,7 @@ using namespace DATA;
         void graze();
         void keephealthy();
         Farming_Type getType() {
-            mycattle = cattle;
+            mycattle = Farming_Type::cattle;
             return mycattle;
         };
     };
@@ -33,7 +33,7 @@ using namespace DATA;
         void graze();
         void keephealthy();
         Farming_Type getType() {
-            mycattle = chicken;
+            mycattle = Farming_Type::chicken;
             return mycattle;
         };
     };
@@ -46,7 +46,7 @@ using namespace DATA;
         void graze();
         void keephealthy();
         Farming_Type getType() {
-            mycattle = pig;
+            mycattle = Farming_Type::pig;
             return mycattle;
         };
     };

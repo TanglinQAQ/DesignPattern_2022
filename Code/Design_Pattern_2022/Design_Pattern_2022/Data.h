@@ -5,7 +5,7 @@ using namespace std;
 namespace DATA {
 
 	//Farming数据的定义
-	enum Farming_Type { cattle, chicken, pig };//养殖类型：牛、鸡、猪
+	enum class Farming_Type { cattle, chicken, pig };//养殖类型：牛、鸡、猪
 	class Farming {
 	public:
 		string owner_name;		//牧场的主人，主码
