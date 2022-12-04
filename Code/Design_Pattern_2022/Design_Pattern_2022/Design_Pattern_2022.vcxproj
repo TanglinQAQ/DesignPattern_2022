@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="cattleBuilderImpl.cpp" />
     <ClCompile Include="chickenBuilderImpl.cpp" />
+    <ClCompile Include="Facade.cpp" />
     <ClCompile Include="farmingDAOImpl.cpp" />
     <ClCompile Include="DB_init.cpp" />
     <ClCompile Include="FarmStocking.cpp" />
@@ -150,6 +151,7 @@
     <ClCompile Include="pigBuilderImpl.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Center factory.h" />
     <ClInclude Include="Data.h" />
     <ClInclude Include="breedBuilder.h" />
     <ClInclude Include="farmingFactory.h" />

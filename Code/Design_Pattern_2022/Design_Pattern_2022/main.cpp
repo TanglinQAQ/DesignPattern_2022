@@ -2,6 +2,7 @@
 #include <iostream>
 #include "Data.h"
 #include "test.h"
+#include"Center factory.h"
 using namespace std;
 using namespace DATA;
 
