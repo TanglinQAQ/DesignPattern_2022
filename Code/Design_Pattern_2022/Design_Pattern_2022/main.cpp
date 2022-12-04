@@ -18,17 +18,16 @@ int main()
 			FarmStocking_Client();
 			break;
 		case 2:
-<<<<<<< HEAD
 			//测试加工
 			AdapterProcessing_Client();
-=======
+			break;
+		case 3:
 			//测试生产流程
 			State_manage();
 			break;
-		case 3:
+		case 4:
 			//测试访问工厂
 			Visitor_manage();
->>>>>>> ff597474cdca9bb96999add1970d2c59abb60192
 			break;
 		default:
 			break;
