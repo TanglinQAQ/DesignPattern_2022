@@ -78,6 +78,9 @@
     <ClCompile Include="Facade.cpp">
       <Filter>源文件\Facade</Filter>
     </ClCompile>
+    <ClCompile Include="Center factory.cpp">
+      <Filter>源文件\Facade</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Data.h">

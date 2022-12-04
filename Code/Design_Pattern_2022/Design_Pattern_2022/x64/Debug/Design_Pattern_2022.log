@@ -1,6 +1,3 @@
-﻿  Facade.cpp
-D:\GitHub\DesignPattern\DesignPattern_2022\Code\Design_Pattern_2022\Design_Pattern_2022\Center factory.h(118,13): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
-  main.cpp
-D:\GitHub\DesignPattern\DesignPattern_2022\Code\Design_Pattern_2022\Design_Pattern_2022\Center factory.h(118,13): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
-  正在生成代码...
+﻿  main.cpp
+  LINK : 没有找到 D:\GitHub\DesignPattern\DesignPattern_2022\Code\Design_Pattern_2022\x64\Debug\Design_Pattern_2022.exe 或上一个增量链接没有生成它；正在执行完全链接
   Design_Pattern_2022.vcxproj -> D:\GitHub\DesignPattern\DesignPattern_2022\Code\Design_Pattern_2022\x64\Debug\Design_Pattern_2022.exe

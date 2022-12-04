@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="cattleBuilderImpl.cpp" />
+    <ClCompile Include="Center factory.cpp" />
     <ClCompile Include="chickenBuilderImpl.cpp" />
     <ClCompile Include="Facade.cpp" />
     <ClCompile Include="farmingDAOImpl.cpp" />
