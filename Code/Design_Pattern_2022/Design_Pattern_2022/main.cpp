@@ -25,10 +25,6 @@ int main()
 			//测试访问工厂
 			Visitor_manage();
 			break;
-		case 9:
-			//测试桥接模式
-			Bridge_Manage();
-			break;
 		default:
 			break;
 		}

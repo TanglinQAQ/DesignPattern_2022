@@ -139,7 +139,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="BridgeManage.cpp" />
     <ClCompile Include="cattleBuilderImpl.cpp" />
     <ClCompile Include="Center factory.cpp" />
     <ClCompile Include="chickenBuilderImpl.cpp" />
@@ -155,10 +154,8 @@
     <ClCompile Include="Wang_farmingFactory.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="pigBuilderImpl.cpp" />
-    <ClCompile Include="Bridge.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Abstraction.h" />
     <ClInclude Include="Center factory.h" />
     <ClInclude Include="Data.h" />
     <ClInclude Include="breedBuilder.h" />
@@ -166,7 +163,6 @@
     <ClInclude Include="State.h" />
     <ClInclude Include="test.h" />
     <ClInclude Include="Visitor.h" />
-    <ClInclude Include="ImplementorAndAbs.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
