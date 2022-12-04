@@ -1,5 +1,0 @@
-﻿  cattleBuilderImpl.cpp
-  chickenBuilderImpl.cpp
-  farmingDAOImpl.cpp
-C:\Users\xltx-\Desktop\TJ\design_pattern\DesignPattern_2022\Code\Design_Pattern_2022\Design_Pattern_2022\farmingDAOImpl.cpp(17,16): warning C4018: “<”: 有符号/无符号不匹配
-  DB_init.cpp
