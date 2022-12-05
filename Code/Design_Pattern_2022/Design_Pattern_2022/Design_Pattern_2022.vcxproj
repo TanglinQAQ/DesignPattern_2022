@@ -149,6 +149,8 @@
     <ClCompile Include="chickenBuilderImpl.cpp" />
     <ClCompile Include="ChickenImpl.cpp" />
     <ClCompile Include="ChickenIterator.cpp" />
+    <ClCompile Include="ComFactory.cpp" />
+    <ClCompile Include="ComposeProcessing.cpp" />
     <ClCompile Include="Facade.cpp" />
     <ClCompile Include="farmingDAOImpl.cpp" />
     <ClCompile Include="DB_init.cpp" />
@@ -156,6 +158,7 @@
     <ClCompile Include="IteratorProcessing.cpp" />
     <ClCompile Include="Li_farmingFactory.cpp" />
     <ClCompile Include="ProcessCattle.cpp" />
+    <ClCompile Include="ProcessCattleFactory.cpp" />
     <ClCompile Include="ProcessChicken.cpp" />
     <ClCompile Include="ProcessFactoryImpl.cpp" />
     <ClCompile Include="State.cpp" />
@@ -169,6 +172,7 @@
   <ItemGroup>
     <ClInclude Include="adapterDesign.h" />
     <ClInclude Include="Center factory.h" />
+    <ClInclude Include="composeDesign.h" />
     <ClInclude Include="Data.h" />
     <ClInclude Include="breedBuilder.h" />
     <ClInclude Include="farmingFactory.h" />

@@ -70,6 +70,9 @@
     <Filter Include="源文件\Processing\iteratorDesign">
       <UniqueIdentifier>{ec71f747-845e-4583-8eae-803fe6cbe2ce}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\Processing\composeDesign">
+      <UniqueIdentifier>{73b49a95-9f4a-4a65-8d4e-8a732785c002}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -150,6 +153,15 @@
     <ClCompile Include="IteratorProcessing.cpp">
       <Filter>源文件\Test</Filter>
     </ClCompile>
+    <ClCompile Include="ComposeProcessing.cpp">
+      <Filter>源文件\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessCattleFactory.cpp">
+      <Filter>源文件\Processing\composeDesign</Filter>
+    </ClCompile>
+    <ClCompile Include="ComFactory.cpp">
+      <Filter>源文件\Processing\composeDesign</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Data.h">
@@ -177,6 +189,9 @@
       <Filter>头文件\Processing</Filter>
     </ClInclude>
     <ClInclude Include="iteratorDesign.h">
+      <Filter>头文件\Processing</Filter>
+    </ClInclude>
+    <ClInclude Include="composeDesign.h">
       <Filter>头文件\Processing</Filter>
     </ClInclude>
   </ItemGroup>

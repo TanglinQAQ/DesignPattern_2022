@@ -6,7 +6,7 @@ void AdapterProcessing_Client()
 {
 	//创建加工厂对象
 	cout << "********" << "开始创建加工牛的工厂" << "********" << endl;
-	ProcessFactoryImpl* processfactory = new ProcessFactoryImpl();
+	ProcessCattleFactory2* processfactory = new ProcessCattleFactory2();
 	//加工牛
 	string msg = processfactory->process();
 	//cout << "\n上面是加工"<< msg <<"的全过程"<< endl;

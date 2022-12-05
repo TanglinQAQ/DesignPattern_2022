@@ -45,11 +45,11 @@ public:
 	virtual string process2()=0;
 };
 
-class ProcessFactoryImpl:public ProcessFactory {
+class ProcessCattleFactory2:public ProcessFactory {
 public:
 	CattleImpl *cattle;
 	CattleAdapter *cattletochicken;
-	ProcessFactoryImpl(){
+	ProcessCattleFactory2(){
 		cattle = new CattleImpl();
 		cattletochicken = new CattleAdapter();
 	}

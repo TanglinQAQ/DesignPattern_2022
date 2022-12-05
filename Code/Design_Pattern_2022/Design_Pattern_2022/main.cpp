@@ -33,6 +33,10 @@ int main()
 			//测试迭代器加工
 			IteratorProcessing_Client(DB);//这里需要用到数据库数据
 			break;
+		case 6:
+			//测试创建分工厂
+			ComposeProcessing_Client();
+			break;
 		default:
 			break;
 		}

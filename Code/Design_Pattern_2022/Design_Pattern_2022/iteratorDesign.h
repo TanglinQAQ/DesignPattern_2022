@@ -36,6 +36,7 @@ public:
 	AnimalProcess currentNumber();
 	bool isFirst();
 };
+
 class ProcessFactory {
 public:
 	virtual AnimalIterator* createIterator() = 0;
