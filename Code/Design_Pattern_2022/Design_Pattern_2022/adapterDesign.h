@@ -3,26 +3,26 @@
 
 using namespace DATA;
 
-class Cattle {
+class Cattlepro {
 public:
 	virtual string getcattle()=0;
 	virtual void processcattle(string msg) =0;
 };
 
-class Chicken {
+class Chickenpro {
 public:
 	virtual string getchicken()=0;
 	virtual void processchicken(string msg) =0;
 };
 
 
-class CattleImpl :public Cattle {
+class CattleImpl :public Cattlepro {
 public:
 	string getcattle();
 	void processcattle(string msg);
 };
 
-class ChickenImpl:public Chicken {
+class ChickenImpl:public Chickenpro {
 public:
 	string getchicken();
 	void processchicken(string msg);

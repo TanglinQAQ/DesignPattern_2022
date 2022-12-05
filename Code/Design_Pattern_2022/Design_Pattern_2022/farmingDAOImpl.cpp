@@ -3,7 +3,7 @@
 #include "Data.h"
 using namespace DATA;
 
-int farmingDAOImpl::insert_farm(Farming f)
+int  farmingDAOImpl::insert_farm(Farming f)
 {
 	cout << "# 使用DAO模式：插入养殖场数据" << endl;
 	farm.push_back(f);

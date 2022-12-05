@@ -29,6 +29,10 @@ int main()
 			//测试访问工厂
 			Visitor_manage();
 			break;
+		case 5:
+			//测试迭代器加工
+			IteratorProcessing_Client(DB);//这里需要用到数据库数据
+			break;
 		default:
 			break;
 		}

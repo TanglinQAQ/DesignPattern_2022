@@ -67,6 +67,9 @@
     <Filter Include="源文件\Processing\adapteDesign">
       <UniqueIdentifier>{045a7e62-d860-42f1-964f-db388a445be6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\Processing\iteratorDesign">
+      <UniqueIdentifier>{ec71f747-845e-4583-8eae-803fe6cbe2ce}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -129,6 +132,24 @@
     <ClCompile Include="AdapterProcessing.cpp">
       <Filter>源文件\Test</Filter>
     </ClCompile>
+    <ClCompile Include="animalprocessDAOImpl.cpp">
+      <Filter>源文件\DAO</Filter>
+    </ClCompile>
+    <ClCompile Include="CattleIterator .cpp">
+      <Filter>源文件\Processing\iteratorDesign</Filter>
+    </ClCompile>
+    <ClCompile Include="ChickenIterator.cpp">
+      <Filter>源文件\Processing\iteratorDesign</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessCattle.cpp">
+      <Filter>源文件\Processing\iteratorDesign</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessChicken.cpp">
+      <Filter>源文件\Processing\iteratorDesign</Filter>
+    </ClCompile>
+    <ClCompile Include="IteratorProcessing.cpp">
+      <Filter>源文件\Test</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Data.h">
@@ -153,6 +174,9 @@
       <Filter>头文件\State</Filter>
     </ClInclude>
     <ClInclude Include="adapterDesign.h">
+      <Filter>头文件\Processing</Filter>
+    </ClInclude>
+    <ClInclude Include="iteratorDesign.h">
       <Filter>头文件\Processing</Filter>
     </ClInclude>
   </ItemGroup>

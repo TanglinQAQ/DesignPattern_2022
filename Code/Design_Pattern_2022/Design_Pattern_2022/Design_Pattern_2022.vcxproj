@@ -140,17 +140,23 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AdapterProcessing.cpp" />
+    <ClCompile Include="animalprocessDAOImpl.cpp" />
     <ClCompile Include="CattleAdapter.cpp" />
     <ClCompile Include="cattleBuilderImpl.cpp" />
     <ClCompile Include="CattleImpl.cpp" />
+    <ClCompile Include="CattleIterator .cpp" />
     <ClCompile Include="Center factory.cpp" />
     <ClCompile Include="chickenBuilderImpl.cpp" />
     <ClCompile Include="ChickenImpl.cpp" />
+    <ClCompile Include="ChickenIterator.cpp" />
     <ClCompile Include="Facade.cpp" />
     <ClCompile Include="farmingDAOImpl.cpp" />
     <ClCompile Include="DB_init.cpp" />
     <ClCompile Include="FarmStocking.cpp" />
+    <ClCompile Include="IteratorProcessing.cpp" />
     <ClCompile Include="Li_farmingFactory.cpp" />
+    <ClCompile Include="ProcessCattle.cpp" />
+    <ClCompile Include="ProcessChicken.cpp" />
     <ClCompile Include="ProcessFactoryImpl.cpp" />
     <ClCompile Include="State.cpp" />
     <ClCompile Include="StateManage.cpp" />
@@ -166,6 +172,7 @@
     <ClInclude Include="Data.h" />
     <ClInclude Include="breedBuilder.h" />
     <ClInclude Include="farmingFactory.h" />
+    <ClInclude Include="iteratorDesign.h" />
     <ClInclude Include="State.h" />
     <ClInclude Include="test.h" />
     <ClInclude Include="Visitor.h" />
