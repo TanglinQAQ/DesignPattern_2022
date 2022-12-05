@@ -58,14 +58,11 @@
     <Filter Include="源文件\State">
       <UniqueIdentifier>{dfa07875-3a65-43bd-818d-9fcdd8ef3998}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\Processing">
-      <UniqueIdentifier>{a8db2f04-ddbe-4b1a-b1b7-1092984b6783}</UniqueIdentifier>
+    <Filter Include="头文件\Bridge">
+      <UniqueIdentifier>{e54eb137-6ee5-40cb-96f6-c8eac9168eae}</UniqueIdentifier>
     </Filter>
-    <Filter Include="头文件\Processing">
-      <UniqueIdentifier>{13cf842b-fede-4ded-988b-5fa0771ebb28}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\Processing\adapteDesign">
-      <UniqueIdentifier>{045a7e62-d860-42f1-964f-db388a445be6}</UniqueIdentifier>
+    <Filter Include="源文件\Bridge">
+      <UniqueIdentifier>{05164a66-e166-4242-a9ea-e37455843e48}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\Processing\iteratorDesign">
       <UniqueIdentifier>{ec71f747-845e-4583-8eae-803fe6cbe2ce}</UniqueIdentifier>
@@ -117,19 +114,10 @@
     <ClCompile Include="VisitorManage.cpp">
       <Filter>源文件\Test</Filter>
     </ClCompile>
-    <ClCompile Include="CattleAdapter.cpp">
-      <Filter>源文件\Processing\adapteDesign</Filter>
+    <ClCompile Include="Bridge.cpp">
+      <Filter>源文件\Bridge</Filter>
     </ClCompile>
-    <ClCompile Include="CattleImpl.cpp">
-      <Filter>源文件\Processing\adapteDesign</Filter>
-    </ClCompile>
-    <ClCompile Include="ChickenImpl.cpp">
-      <Filter>源文件\Processing\adapteDesign</Filter>
-    </ClCompile>
-    <ClCompile Include="ProcessFactoryImpl.cpp">
-      <Filter>源文件\Processing\adapteDesign</Filter>
-    </ClCompile>
-    <ClCompile Include="AdapterProcessing.cpp">
+    <ClCompile Include="BridgeManage.cpp">
       <Filter>源文件\Test</Filter>
     </ClCompile>
     <ClCompile Include="animalprocessDAOImpl.cpp">
@@ -173,8 +161,11 @@
     <ClInclude Include="State.h">
       <Filter>头文件\State</Filter>
     </ClInclude>
-    <ClInclude Include="adapterDesign.h">
-      <Filter>头文件\Processing</Filter>
+    <ClInclude Include="Abstraction.h">
+      <Filter>头文件\Bridge</Filter>
+    </ClInclude>
+    <ClInclude Include="ImplementorAndAbs.h">
+      <Filter>头文件\Bridge</Filter>
     </ClInclude>
     <ClInclude Include="iteratorDesign.h">
       <Filter>头文件\Processing</Filter>
