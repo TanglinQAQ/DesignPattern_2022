@@ -29,7 +29,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
@@ -42,7 +42,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
@@ -141,6 +141,8 @@
   <ItemGroup>
     <ClCompile Include="AdapterProcessing.cpp" />
     <ClCompile Include="animalprocessDAOImpl.cpp" />
+    <ClCompile Include="Bridge.cpp" />
+    <ClCompile Include="BridgeManage.cpp" />
     <ClCompile Include="CattleAdapter.cpp" />
     <ClCompile Include="cattleBuilderImpl.cpp" />
     <ClCompile Include="CattleImpl.cpp" />
@@ -170,12 +172,14 @@
     <ClCompile Include="pigBuilderImpl.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Abstraction.h" />
     <ClInclude Include="adapterDesign.h" />
     <ClInclude Include="Center factory.h" />
     <ClInclude Include="composeDesign.h" />
     <ClInclude Include="Data.h" />
     <ClInclude Include="breedBuilder.h" />
     <ClInclude Include="farmingFactory.h" />
+    <ClInclude Include="ImplementorAndAbs.h" />
     <ClInclude Include="iteratorDesign.h" />
     <ClInclude Include="State.h" />
     <ClInclude Include="test.h" />

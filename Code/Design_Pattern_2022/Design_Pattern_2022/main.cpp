@@ -37,6 +37,10 @@ int main()
 			//测试创建分工厂
 			ComposeProcessing_Client();
 			break;
+		case 9:
+			//测试桥接模式
+			Bridge_Manage();
+			break;
 		default:
 			break;
 		}

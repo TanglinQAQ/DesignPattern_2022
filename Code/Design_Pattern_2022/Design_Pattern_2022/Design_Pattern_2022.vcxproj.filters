@@ -73,6 +73,12 @@
     <Filter Include="源文件\Processing\composeDesign">
       <UniqueIdentifier>{73b49a95-9f4a-4a65-8d4e-8a732785c002}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\Bridge">
+      <UniqueIdentifier>{742c627a-e2b3-46c4-a05b-d794d25c05a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Bridge">
+      <UniqueIdentifier>{74620f41-9e34-42e8-843f-ef57bc495a42}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -162,6 +168,12 @@
     <ClCompile Include="ComFactory.cpp">
       <Filter>源文件\Processing\composeDesign</Filter>
     </ClCompile>
+    <ClCompile Include="Bridge.cpp">
+      <Filter>源文件\Bridge</Filter>
+    </ClCompile>
+    <ClCompile Include="BridgeManage.cpp">
+      <Filter>源文件\Test</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Data.h">
@@ -193,6 +205,12 @@
     </ClInclude>
     <ClInclude Include="composeDesign.h">
       <Filter>头文件\Processing</Filter>
+    </ClInclude>
+    <ClInclude Include="Abstraction.h">
+      <Filter>头文件\Bridge</Filter>
+    </ClInclude>
+    <ClInclude Include="ImplementorAndAbs.h">
+      <Filter>头文件\Bridge</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
