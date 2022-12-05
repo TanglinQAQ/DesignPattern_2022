@@ -40,9 +40,15 @@ int main()
 		case 7:
 			factory();
 			break;
+		case 8:
+			market();
+			break;
 		case 9:
 			//²âÊÔÇÅ½ÓÄ£Ê½
 			Bridge_Manage();
+			break;
+		case 10:
+			Facade();
 			break;
 		default:
 			break;

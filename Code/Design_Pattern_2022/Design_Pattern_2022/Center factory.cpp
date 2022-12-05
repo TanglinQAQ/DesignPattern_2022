@@ -1,6 +1,4 @@
-#include<iostream>
 #include"Center factory.h"
-using namespace std;
 
 void ZhangFamily::buy_sheep(int n) {
 	cout << "买了" << n << "头张家的羊" << endl;
@@ -37,12 +35,12 @@ void ChenFamily::buy_chicken(int n) {
 
 void Sale_factory::Buy() {
 	cout << "你要购买的是羊(0)还是鸡(1)还是牛(2)" << endl;
-	srand(time(0));
 	int option, number;
 	int n;
 	cin >> option;
 	cout << "输入你要买的数量" << endl;
 	cin >> number;
+	srand((unsigned int)time(0));
 	if (option == 0) {
 		n = rand() % number;
 		number -= n;

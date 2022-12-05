@@ -85,6 +85,12 @@
     <Filter Include="源文件\Memo">
       <UniqueIdentifier>{705b8d35-80c0-4805-84e7-fb5507b53c36}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\Observer">
+      <UniqueIdentifier>{0f39f3a7-eaa4-4001-a827-6fb03beb11b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Observer">
+      <UniqueIdentifier>{fe04dd9f-be84-4ca6-8487-abfe7ba73343}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -186,6 +192,12 @@
     <ClCompile Include="Memo.cpp">
       <Filter>源文件\Memo</Filter>
     </ClCompile>
+    <ClCompile Include="Observer.cpp">
+      <Filter>源文件\Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="Market.cpp">
+      <Filter>源文件\Observer</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Data.h">
@@ -226,6 +238,9 @@
     </ClInclude>
     <ClInclude Include="Memo .h">
       <Filter>头文件\Memo</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer.h">
+      <Filter>头文件\Observer</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
