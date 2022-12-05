@@ -29,26 +29,26 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
@@ -139,7 +139,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-<<<<<<< HEAD
     <ClCompile Include="AdapterProcessing.cpp" />
     <ClCompile Include="animalprocessDAOImpl.cpp" />
     <ClCompile Include="CattleAdapter.cpp" />
@@ -150,24 +149,15 @@
     <ClCompile Include="chickenBuilderImpl.cpp" />
     <ClCompile Include="ChickenImpl.cpp" />
     <ClCompile Include="ChickenIterator.cpp" />
-=======
-    <ClCompile Include="BridgeManage.cpp" />
-    <ClCompile Include="cattleBuilderImpl.cpp" />
-    <ClCompile Include="Center factory.cpp" />
-    <ClCompile Include="chickenBuilderImpl.cpp" />
->>>>>>> 8ea6aac2dcaba61211688306be04ca5a9efa49dd
     <ClCompile Include="Facade.cpp" />
     <ClCompile Include="farmingDAOImpl.cpp" />
     <ClCompile Include="DB_init.cpp" />
     <ClCompile Include="FarmStocking.cpp" />
     <ClCompile Include="IteratorProcessing.cpp" />
     <ClCompile Include="Li_farmingFactory.cpp" />
-<<<<<<< HEAD
     <ClCompile Include="ProcessCattle.cpp" />
     <ClCompile Include="ProcessChicken.cpp" />
     <ClCompile Include="ProcessFactoryImpl.cpp" />
-=======
->>>>>>> 8ea6aac2dcaba61211688306be04ca5a9efa49dd
     <ClCompile Include="State.cpp" />
     <ClCompile Include="StateManage.cpp" />
     <ClCompile Include="Visitor.cpp" />
@@ -175,10 +165,9 @@
     <ClCompile Include="Wang_farmingFactory.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="pigBuilderImpl.cpp" />
-    <ClCompile Include="Bridge.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Abstraction.h" />
+    <ClInclude Include="adapterDesign.h" />
     <ClInclude Include="Center factory.h" />
     <ClInclude Include="Data.h" />
     <ClInclude Include="breedBuilder.h" />
@@ -187,7 +176,6 @@
     <ClInclude Include="State.h" />
     <ClInclude Include="test.h" />
     <ClInclude Include="Visitor.h" />
-    <ClInclude Include="ImplementorAndAbs.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
