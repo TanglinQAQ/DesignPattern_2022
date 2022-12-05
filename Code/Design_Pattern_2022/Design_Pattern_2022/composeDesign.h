@@ -2,6 +2,7 @@
 #include "Data.h"
 using namespace DATA;
 
+/*类描述：抽象工厂类*/
 class ProcessFactory {
 public:
 	string strcom;//是什么类型的组件
@@ -15,7 +16,7 @@ public:
 	virtual void print() = 0;
 };
 
-//具体组件类，叶子节点
+/*类描述：具体组件类，叶子节点*/
 class ComFactory :public  ProcessFactory{
 public:
 	ComFactory(string strcom) : ProcessFactory(strcom) {};
@@ -26,7 +27,7 @@ public:
 	void print() {};
 };
 
-//具体工厂类，非叶子节点
+/*类描述：具体工厂类，非叶子节点*/
 class ProcessCattleFactory :public ProcessFactory {
 public:
 	vector<ProcessFactory*> vectorcom;//组件的数组
