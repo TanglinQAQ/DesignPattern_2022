@@ -139,6 +139,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\..\Desktop\factory.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\Desktop\Memo.cpp" />
     <ClCompile Include="AdapterProcessing.cpp" />
     <ClCompile Include="animalprocessDAOImpl.cpp" />
     <ClCompile Include="Bridge.cpp" />
@@ -172,6 +174,7 @@
     <ClCompile Include="pigBuilderImpl.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\..\Desktop\Memo .h" />
     <ClInclude Include="Abstraction.h" />
     <ClInclude Include="adapterDesign.h" />
     <ClInclude Include="Center factory.h" />

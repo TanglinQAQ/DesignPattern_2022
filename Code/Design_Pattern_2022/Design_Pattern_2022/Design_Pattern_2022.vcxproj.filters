@@ -79,6 +79,12 @@
     <Filter Include="源文件\Bridge">
       <UniqueIdentifier>{74620f41-9e34-42e8-843f-ef57bc495a42}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\Memo">
+      <UniqueIdentifier>{5f119507-9aab-4c46-98aa-4721bf608b14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Memo">
+      <UniqueIdentifier>{705b8d35-80c0-4805-84e7-fb5507b53c36}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -174,6 +180,12 @@
     <ClCompile Include="BridgeManage.cpp">
       <Filter>源文件\Test</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Desktop\factory.cpp">
+      <Filter>源文件\Memo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Desktop\Memo.cpp">
+      <Filter>源文件\Memo</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Data.h">
@@ -211,6 +223,9 @@
     </ClInclude>
     <ClInclude Include="ImplementorAndAbs.h">
       <Filter>头文件\Bridge</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Desktop\Memo .h">
+      <Filter>头文件\Memo</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
