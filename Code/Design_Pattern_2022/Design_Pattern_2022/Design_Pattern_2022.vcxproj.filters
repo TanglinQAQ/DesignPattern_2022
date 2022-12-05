@@ -180,10 +180,10 @@
     <ClCompile Include="BridgeManage.cpp">
       <Filter>源文件\Test</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\Desktop\factory.cpp">
+    <ClCompile Include="factory.cpp">
       <Filter>源文件\Memo</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\Desktop\Memo.cpp">
+    <ClCompile Include="Memo.cpp">
       <Filter>源文件\Memo</Filter>
     </ClCompile>
   </ItemGroup>
@@ -224,7 +224,7 @@
     <ClInclude Include="ImplementorAndAbs.h">
       <Filter>头文件\Bridge</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\Desktop\Memo .h">
+    <ClInclude Include="Memo .h">
       <Filter>头文件\Memo</Filter>
     </ClInclude>
   </ItemGroup>

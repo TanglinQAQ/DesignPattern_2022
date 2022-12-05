@@ -139,8 +139,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\..\Desktop\factory.cpp" />
-    <ClCompile Include="..\..\..\..\..\..\Desktop\Memo.cpp" />
     <ClCompile Include="AdapterProcessing.cpp" />
     <ClCompile Include="animalprocessDAOImpl.cpp" />
     <ClCompile Include="Bridge.cpp" />
@@ -156,11 +154,13 @@
     <ClCompile Include="ComFactory.cpp" />
     <ClCompile Include="ComposeProcessing.cpp" />
     <ClCompile Include="Facade.cpp" />
+    <ClCompile Include="factory.cpp" />
     <ClCompile Include="farmingDAOImpl.cpp" />
     <ClCompile Include="DB_init.cpp" />
     <ClCompile Include="FarmStocking.cpp" />
     <ClCompile Include="IteratorProcessing.cpp" />
     <ClCompile Include="Li_farmingFactory.cpp" />
+    <ClCompile Include="Memo.cpp" />
     <ClCompile Include="ProcessCattle.cpp" />
     <ClCompile Include="ProcessCattleFactory.cpp" />
     <ClCompile Include="ProcessChicken.cpp" />
@@ -174,7 +174,6 @@
     <ClCompile Include="pigBuilderImpl.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\..\Desktop\Memo .h" />
     <ClInclude Include="Abstraction.h" />
     <ClInclude Include="adapterDesign.h" />
     <ClInclude Include="Center factory.h" />
@@ -184,6 +183,7 @@
     <ClInclude Include="farmingFactory.h" />
     <ClInclude Include="ImplementorAndAbs.h" />
     <ClInclude Include="iteratorDesign.h" />
+    <ClInclude Include="Memo .h" />
     <ClInclude Include="State.h" />
     <ClInclude Include="test.h" />
     <ClInclude Include="Visitor.h" />
