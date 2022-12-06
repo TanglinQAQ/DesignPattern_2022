@@ -27,7 +27,7 @@ namespace DATA {
 		virtual vector<AnimalProcess> get_animals() = 0;//得到加工厂的所有动物
 	};
 	//数据库访问方法的具体实现
-	class farmingDAOImpl:public farmingDAO {
+	class farmingDAOImpl :public farmingDAO {
 	protected:
 		vector<Farming> farm;
 	public:
@@ -39,13 +39,17 @@ namespace DATA {
 		vector<AnimalProcess> animals;
 	public:
 		int insert_animalprocess(AnimalProcess animalprocess);
-		
+		vector<AnimalProcess> get_animals();//得到加工厂的所有动物，从数据库中拿
+
 	};
+
 	//数据库最终体现为Database类的一个实例
 	//继承
 	class Database :public farmingDAOImpl, public animalprocessDAOImpl {
-	public:
+	private:
 		Database();
-		vector<AnimalProcess> get_animals();//得到加工厂的所有动物，从数据库中拿
+		static Database instance;
+	public:
+		static Database& get_DB();
 	};
 }

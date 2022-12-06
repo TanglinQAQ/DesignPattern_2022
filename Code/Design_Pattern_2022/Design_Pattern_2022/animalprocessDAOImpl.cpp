@@ -10,3 +10,7 @@ int  animalprocessDAOImpl::insert_animalprocess(AnimalProcess animalprocess)
 	return 1;
 }
 
+vector<AnimalProcess> animalprocessDAOImpl::get_animals() {
+	cout << "# 使用DAO模式，获取加工厂的动物" << endl;
+	return animals;
+}
