@@ -8,7 +8,7 @@ using namespace std;
 //这里存放的是所有对DB的操作
 Database::Database()
 {
-	cout <<"********" << "数据库初始化中" <<"********" << endl;
+	cout << "********" << "数据库初始化中" << "********" << endl;
 	/*牧场信息初始化*/
 	Farming f1 = { "Wang",{Farming_Type::cattle,Farming_Type::chicken,Farming_Type::pig} };
 	Farming f2 = { "Li",{Farming_Type::cattle,Farming_Type::chicken,Farming_Type::pig} };
@@ -27,6 +27,8 @@ Database::Database()
 	cout << "********" << "数据库初始化结束" << "********" << endl;
 }
 
-vector<AnimalProcess> Database::get_animals() {
-	return animals;
+Database& Database::get_DB()
+{
+	cout << "# 使用单例模式，获取数据库单例" << endl;
+	return instance;
 }

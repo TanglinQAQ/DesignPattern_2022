@@ -5,9 +5,11 @@
 using namespace std;
 using namespace DATA;
 
+Database Database::instance;//单例模式
+
 int main()
 {
-	Database DB;
+	Database DB = DB.get_DB();
 	while (1) {
 		cout << "请选择现在要进行的操作：" << endl;
 		int oper;
