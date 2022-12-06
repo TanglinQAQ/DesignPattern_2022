@@ -91,6 +91,15 @@
     <Filter Include="源文件\Observer">
       <UniqueIdentifier>{fe04dd9f-be84-4ca6-8487-abfe7ba73343}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\Farming\farmHouseConstruct">
+      <UniqueIdentifier>{1978b760-9cd7-4d60-a3c4-124f23ef1d70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Market">
+      <UniqueIdentifier>{08e1523a-3eff-46ba-8135-350a39e46872}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Market">
+      <UniqueIdentifier>{03a024c2-bd33-44ed-8282-7006b2928a0e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -198,6 +207,12 @@
     <ClCompile Include="Market.cpp">
       <Filter>源文件\Observer</Filter>
     </ClCompile>
+    <ClCompile Include="houseConstructorImpl.cpp">
+      <Filter>源文件\Farming\farmHouseConstruct</Filter>
+    </ClCompile>
+    <ClCompile Include="sellerImpl.cpp">
+      <Filter>源文件\Market</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Data.h">
@@ -241,6 +256,12 @@
     </ClInclude>
     <ClInclude Include="Observer.h">
       <Filter>头文件\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="farmHouseConstructTemplate.h">
+      <Filter>头文件\Farming</Filter>
+    </ClInclude>
+    <ClInclude Include="Market.h">
+      <Filter>头文件\Market</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

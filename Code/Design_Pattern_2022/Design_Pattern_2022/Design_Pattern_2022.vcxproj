@@ -158,6 +158,7 @@
     <ClCompile Include="farmingDAOImpl.cpp" />
     <ClCompile Include="DB_init.cpp" />
     <ClCompile Include="FarmStocking.cpp" />
+    <ClCompile Include="houseConstructorImpl.cpp" />
     <ClCompile Include="IteratorProcessing.cpp" />
     <ClCompile Include="Li_farmingFactory.cpp" />
     <ClCompile Include="Market.cpp" />
@@ -167,6 +168,7 @@
     <ClCompile Include="ProcessCattleFactory.cpp" />
     <ClCompile Include="ProcessChicken.cpp" />
     <ClCompile Include="ProcessFactoryImpl.cpp" />
+    <ClCompile Include="sellerImpl.cpp" />
     <ClCompile Include="State.cpp" />
     <ClCompile Include="StateManage.cpp" />
     <ClCompile Include="Visitor.cpp" />
@@ -182,9 +184,11 @@
     <ClInclude Include="composeDesign.h" />
     <ClInclude Include="Data.h" />
     <ClInclude Include="breedBuilder.h" />
+    <ClInclude Include="farmHouseConstructTemplate.h" />
     <ClInclude Include="farmingFactory.h" />
     <ClInclude Include="ImplementorAndAbs.h" />
     <ClInclude Include="iteratorDesign.h" />
+    <ClInclude Include="Market.h" />
     <ClInclude Include="Memo .h" />
     <ClInclude Include="Observer.h" />
     <ClInclude Include="State.h" />
