@@ -11,3 +11,5 @@ void Bridge_Manage();
 void factory();
 void market();
 void Facade();
+
+void Flyweight();

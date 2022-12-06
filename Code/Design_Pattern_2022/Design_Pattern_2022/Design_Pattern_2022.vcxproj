@@ -158,6 +158,8 @@
     <ClCompile Include="farmingDAOImpl.cpp" />
     <ClCompile Include="DB_init.cpp" />
     <ClCompile Include="FarmStocking.cpp" />
+    <ClCompile Include="Flyweight.cpp" />
+    <ClCompile Include="FlyweightManage.cpp" />
     <ClCompile Include="houseConstructorImpl.cpp" />
     <ClCompile Include="IteratorProcessing.cpp" />
     <ClCompile Include="Li_farmingFactory.cpp" />
@@ -186,6 +188,7 @@
     <ClInclude Include="breedBuilder.h" />
     <ClInclude Include="farmHouseConstructTemplate.h" />
     <ClInclude Include="farmingFactory.h" />
+    <ClInclude Include="Flyweight.h" />
     <ClInclude Include="ImplementorAndAbs.h" />
     <ClInclude Include="iteratorDesign.h" />
     <ClInclude Include="Market.h" />

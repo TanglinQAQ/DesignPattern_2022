@@ -52,6 +52,10 @@ int main()
 		case 10:
 			Facade();
 			break;
+			//²âÊÔÏíÔªÄ£Ê½
+		case 11:
+			Flyweight();
+			break;
 		default:
 			break;
 		}

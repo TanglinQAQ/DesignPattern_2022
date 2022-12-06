@@ -100,6 +100,12 @@
     <Filter Include="源文件\Market">
       <UniqueIdentifier>{03a024c2-bd33-44ed-8282-7006b2928a0e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\Flyweight">
+      <UniqueIdentifier>{3afa61f4-a2ca-4469-b8be-6b97b06d993c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Flyweight">
+      <UniqueIdentifier>{9b500829-fa1e-4785-a149-4c4f4c3dbe13}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -213,6 +219,12 @@
     <ClCompile Include="sellerImpl.cpp">
       <Filter>源文件\Market</Filter>
     </ClCompile>
+    <ClCompile Include="Flyweight.cpp">
+      <Filter>源文件\Flyweight</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyweightManage.cpp">
+      <Filter>源文件\Test</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Data.h">
@@ -262,6 +274,9 @@
     </ClInclude>
     <ClInclude Include="Market.h">
       <Filter>头文件\Market</Filter>
+    </ClInclude>
+    <ClInclude Include="Flyweight.h">
+      <Filter>头文件\Flyweight</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
