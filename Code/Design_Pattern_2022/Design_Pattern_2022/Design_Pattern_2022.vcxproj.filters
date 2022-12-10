@@ -40,9 +40,6 @@
     <Filter Include="头文件\Test">
       <UniqueIdentifier>{3d29b7aa-1036-4b2f-aa31-475e9b23fd28}</UniqueIdentifier>
     </Filter>
-    <Filter Include="头文件\Appearance">
-      <UniqueIdentifier>{affd3f75-dcaf-48e7-b8ee-a8da54da85fc}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\Facade">
       <UniqueIdentifier>{0f0bebf5-469b-4206-ac4b-50ba63c0dd98}</UniqueIdentifier>
     </Filter>
@@ -106,11 +103,11 @@
     <Filter Include="源文件\Flyweight">
       <UniqueIdentifier>{9b500829-fa1e-4785-a149-4c4f4c3dbe13}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\Prototype">
-      <UniqueIdentifier>{67b96311-f0c1-40ae-8879-0330579ee303}</UniqueIdentifier>
+    <Filter Include="源文件\Processing\strategyDesign">
+      <UniqueIdentifier>{92d0a84f-f418-45fd-9293-53e444cbe2e0}</UniqueIdentifier>
     </Filter>
-    <Filter Include="头文件\Prototype">
-      <UniqueIdentifier>{a8967a9a-d554-425d-978b-2c2afab2fdfd}</UniqueIdentifier>
+    <Filter Include="头文件\Facade">
+      <UniqueIdentifier>{affd3f75-dcaf-48e7-b8ee-a8da54da85fc}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -231,11 +228,20 @@
     <ClCompile Include="FlyweightManage.cpp">
       <Filter>源文件\Test</Filter>
     </ClCompile>
-    <ClCompile Include="Prototype.cpp">
-      <Filter>源文件\Test</Filter>
+    <ClCompile Include="ProcessingCattle.cpp">
+      <Filter>源文件\Processing\strategyDesign</Filter>
     </ClCompile>
-    <ClCompile Include="pack.cpp">
-      <Filter>源文件\Prototype</Filter>
+    <ClCompile Include="ProcessingChicken.cpp">
+      <Filter>源文件\Processing\strategyDesign</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessingPig.cpp">
+      <Filter>源文件\Processing\strategyDesign</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessFactory.cpp">
+      <Filter>源文件\Processing\strategyDesign</Filter>
+    </ClCompile>
+    <ClCompile Include="StrategyProcessing.cpp">
+      <Filter>源文件\Test</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -252,7 +258,7 @@
       <Filter>头文件\Test</Filter>
     </ClInclude>
     <ClInclude Include="Center factory.h">
-      <Filter>头文件\Appearance</Filter>
+      <Filter>头文件\Facade</Filter>
     </ClInclude>
     <ClInclude Include="Visitor.h">
       <Filter>头文件\Visitor</Filter>
@@ -290,8 +296,8 @@
     <ClInclude Include="Flyweight.h">
       <Filter>头文件\Flyweight</Filter>
     </ClInclude>
-    <ClInclude Include="pack.h">
-      <Filter>头文件\Prototype</Filter>
+    <ClInclude Include="strategyDesign.h">
+      <Filter>头文件\Processing</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

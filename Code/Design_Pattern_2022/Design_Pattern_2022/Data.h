@@ -3,7 +3,8 @@
 #include <vector>
 using namespace std;
 namespace DATA {
-
+	//Processing工厂的定义
+	typedef enum StrategeType{Cattleprocessing,Chickenprocessing,Pigprocessing}STRATEGETYPE;
 	//Farming数据的定义
 	enum class Farming_Type { cattle, chicken, pig };//养殖类型：牛、鸡、猪
 	//enum class FarmingHouse_Type {cowshed,henhouse,hogpen}; //农场房屋类型：牛棚、鸡舍、猪圈
