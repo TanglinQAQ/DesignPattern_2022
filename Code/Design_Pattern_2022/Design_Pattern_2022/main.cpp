@@ -40,9 +40,11 @@ int main()
 			ComposeProcessing_Client();
 			break;
 		case 7:
+			//测试备忘录模式
 			factory();
 			break;
 		case 8:
+			//测试观察者模式
 			market();
 			break;
 		case 9:
@@ -50,6 +52,7 @@ int main()
 			Bridge_Manage();
 			break;
 		case 10:
+			//测试外观模式
 			Facade();
 			break;
 			//测试享元模式

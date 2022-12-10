@@ -36,31 +36,3 @@ class Observer {
 	string Name_supply;
 	int price;
 };
-//
-//class ZhangObserver:public Observer{
-//	Business_situation business_situation;
-//	ZhangObserver(Business_situation business_situation) {
-//		this->business_situation = business_situation;
-//		this->business_situation.attch(this);
-//	}
-//	void up();
-//	void down();
-//};
-//class WangObserver :public Observer {
-//	Business_situation business_situation;
-//	WangObserver(Business_situation business_situation) {
-//		this->business_situation = business_situation;
-//		this->business_situation.attch(this);
-//	}
-//	void up();
-//	void down();
-//};
-//class ChenObserver :public Observer {
-//	Business_situation business_situation;
-//	ChenObserver(Business_situation business_situation) {
-//		this->business_situation = business_situation;
-//		this->business_situation.attch(this);
-//	}
-//	void up();
-//	void down();
-//};
