@@ -52,6 +52,17 @@ int main()
 		case 10:
 			Facade();
 			break;
+		case 11:
+			//测试建造者模式
+			buildertest();
+			break;
+		case 12:
+			//测试模板模式
+			templatetest();
+
+		case 13:
+			//测试代理模式
+			proxytest();
 		default:
 			break;
 		}

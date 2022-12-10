@@ -213,6 +213,15 @@
     <ClCompile Include="sellerImpl.cpp">
       <Filter>源文件\Market</Filter>
     </ClCompile>
+    <ClCompile Include="BuilderTest.cpp">
+      <Filter>源文件\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="TemplateTest.cpp">
+      <Filter>源文件\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="ProxyTest.cpp">
+      <Filter>源文件\Test</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Data.h">

@@ -9,7 +9,7 @@ using namespace DATA;
         virtual void graze()=0;
         virtual void keephealthy()=0;
 
-        virtual Farming_Type getTyoe()=0;
+        virtual Farming_Type getType()=0;
     };
 
     class cattleBuilderImpl : public breedBuilder {

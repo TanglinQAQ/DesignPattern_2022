@@ -1,5 +1,6 @@
 #pragma once
 #include "Data.h"
+#include<iostream>
 
 using namespace DATA;
 using namespace std;

@@ -143,6 +143,7 @@
     <ClCompile Include="animalprocessDAOImpl.cpp" />
     <ClCompile Include="Bridge.cpp" />
     <ClCompile Include="BridgeManage.cpp" />
+    <ClCompile Include="BuilderTest.cpp" />
     <ClCompile Include="CattleAdapter.cpp" />
     <ClCompile Include="cattleBuilderImpl.cpp" />
     <ClCompile Include="CattleImpl.cpp" />
@@ -168,9 +169,11 @@
     <ClCompile Include="ProcessCattleFactory.cpp" />
     <ClCompile Include="ProcessChicken.cpp" />
     <ClCompile Include="ProcessFactoryImpl.cpp" />
+    <ClCompile Include="ProxyTest.cpp" />
     <ClCompile Include="sellerImpl.cpp" />
     <ClCompile Include="State.cpp" />
     <ClCompile Include="StateManage.cpp" />
+    <ClCompile Include="TemplateTest.cpp" />
     <ClCompile Include="Visitor.cpp" />
     <ClCompile Include="VisitorManage.cpp" />
     <ClCompile Include="Wang_farmingFactory.cpp" />
