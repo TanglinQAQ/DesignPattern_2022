@@ -152,6 +152,7 @@
     <ClCompile Include="ChickenImpl.cpp" />
     <ClCompile Include="ChickenIterator.cpp" />
     <ClCompile Include="ComFactory.cpp" />
+    <ClCompile Include="CommandManage.cpp" />
     <ClCompile Include="ComposeProcessing.cpp" />
     <ClCompile Include="Facade.cpp" />
     <ClCompile Include="factory.cpp" />
@@ -163,6 +164,7 @@
     <ClCompile Include="houseConstructorImpl.cpp" />
     <ClCompile Include="IteratorProcessing.cpp" />
     <ClCompile Include="Li_farmingFactory.cpp" />
+    <ClCompile Include="LogManager.cpp" />
     <ClCompile Include="Market.cpp" />
     <ClCompile Include="MediatorManage.cpp" />
     <ClCompile Include="Memo.cpp" />
@@ -198,6 +200,7 @@
     <ClInclude Include="Flyweight.h" />
     <ClInclude Include="ImplementorAndAbs.h" />
     <ClInclude Include="iteratorDesign.h" />
+    <ClInclude Include="LogManager.h" />
     <ClInclude Include="Market.h" />
     <ClInclude Include="Memo .h" />
     <ClInclude Include="Observer.h" />

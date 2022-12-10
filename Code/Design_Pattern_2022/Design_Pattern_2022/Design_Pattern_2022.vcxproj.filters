@@ -115,6 +115,12 @@
     <Filter Include="源文件\Mediator">
       <UniqueIdentifier>{a00ce3eb-61e3-4e8d-8c66-0c601aaa59be}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\Command">
+      <UniqueIdentifier>{ebdc170f-d269-4ae0-8fcd-67f5c4500f15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Command">
+      <UniqueIdentifier>{10fbd1d0-5a50-41c0-b08d-2cae9f3bcc47}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -255,6 +261,12 @@
     <ClCompile Include="Person.cpp">
       <Filter>源文件\Mediator</Filter>
     </ClCompile>
+    <ClCompile Include="LogManager.cpp">
+      <Filter>源文件\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandManage.cpp">
+      <Filter>源文件\Test</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Data.h">
@@ -313,6 +325,9 @@
     </ClInclude>
     <ClInclude Include="Person.h">
       <Filter>头文件\Mediator</Filter>
+    </ClInclude>
+    <ClInclude Include="LogManager.h">
+      <Filter>头文件\Command</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
