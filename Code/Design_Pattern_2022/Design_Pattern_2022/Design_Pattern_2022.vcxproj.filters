@@ -109,6 +109,12 @@
     <Filter Include="头文件\Facade">
       <UniqueIdentifier>{affd3f75-dcaf-48e7-b8ee-a8da54da85fc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\Mediator">
+      <UniqueIdentifier>{13415a1c-6f85-4d6b-abf6-02f0d63a9be7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Mediator">
+      <UniqueIdentifier>{a00ce3eb-61e3-4e8d-8c66-0c601aaa59be}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -243,6 +249,12 @@
     <ClCompile Include="StrategyProcessing.cpp">
       <Filter>源文件\Test</Filter>
     </ClCompile>
+    <ClCompile Include="MediatorManage.cpp">
+      <Filter>源文件\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Person.cpp">
+      <Filter>源文件\Mediator</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Data.h">
@@ -298,6 +310,9 @@
     </ClInclude>
     <ClInclude Include="strategyDesign.h">
       <Filter>头文件\Processing</Filter>
+    </ClInclude>
+    <ClInclude Include="Person.h">
+      <Filter>头文件\Mediator</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

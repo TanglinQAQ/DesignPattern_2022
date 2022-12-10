@@ -164,8 +164,10 @@
     <ClCompile Include="IteratorProcessing.cpp" />
     <ClCompile Include="Li_farmingFactory.cpp" />
     <ClCompile Include="Market.cpp" />
+    <ClCompile Include="MediatorManage.cpp" />
     <ClCompile Include="Memo.cpp" />
     <ClCompile Include="Observer.cpp" />
+    <ClCompile Include="Person.cpp" />
     <ClCompile Include="ProcessCattle.cpp" />
     <ClCompile Include="ProcessCattleFactory.cpp" />
     <ClCompile Include="ProcessChicken.cpp" />
@@ -199,6 +201,7 @@
     <ClInclude Include="Market.h" />
     <ClInclude Include="Memo .h" />
     <ClInclude Include="Observer.h" />
+    <ClInclude Include="Person.h" />
     <ClInclude Include="State.h" />
     <ClInclude Include="strategyDesign.h" />
     <ClInclude Include="test.h" />
