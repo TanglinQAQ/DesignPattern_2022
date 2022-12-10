@@ -29,7 +29,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
@@ -42,7 +42,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
@@ -169,10 +169,15 @@
     <ClCompile Include="ProcessCattle.cpp" />
     <ClCompile Include="ProcessCattleFactory.cpp" />
     <ClCompile Include="ProcessChicken.cpp" />
+    <ClCompile Include="ProcessFactory.cpp" />
     <ClCompile Include="ProcessFactoryImpl.cpp" />
+    <ClCompile Include="ProcessingCattle.cpp" />
+    <ClCompile Include="ProcessingChicken.cpp" />
+    <ClCompile Include="ProcessingPig.cpp" />
     <ClCompile Include="sellerImpl.cpp" />
     <ClCompile Include="State.cpp" />
     <ClCompile Include="StateManage.cpp" />
+    <ClCompile Include="StrategyProcessing.cpp" />
     <ClCompile Include="Visitor.cpp" />
     <ClCompile Include="VisitorManage.cpp" />
     <ClCompile Include="Wang_farmingFactory.cpp" />
@@ -195,6 +200,7 @@
     <ClInclude Include="Memo .h" />
     <ClInclude Include="Observer.h" />
     <ClInclude Include="State.h" />
+    <ClInclude Include="strategyDesign.h" />
     <ClInclude Include="test.h" />
     <ClInclude Include="Visitor.h" />
   </ItemGroup>

@@ -13,3 +13,4 @@ void market();
 void Facade();
 
 void Flyweight();
+void StrategyProcessing_Client();

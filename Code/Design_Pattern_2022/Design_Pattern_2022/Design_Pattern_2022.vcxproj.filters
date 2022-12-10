@@ -106,6 +106,9 @@
     <Filter Include="源文件\Flyweight">
       <UniqueIdentifier>{9b500829-fa1e-4785-a149-4c4f4c3dbe13}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\Processing\strategyDesign">
+      <UniqueIdentifier>{92d0a84f-f418-45fd-9293-53e444cbe2e0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -225,6 +228,21 @@
     <ClCompile Include="FlyweightManage.cpp">
       <Filter>源文件\Test</Filter>
     </ClCompile>
+    <ClCompile Include="ProcessingCattle.cpp">
+      <Filter>源文件\Processing\strategyDesign</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessingChicken.cpp">
+      <Filter>源文件\Processing\strategyDesign</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessingPig.cpp">
+      <Filter>源文件\Processing\strategyDesign</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessFactory.cpp">
+      <Filter>源文件\Processing\strategyDesign</Filter>
+    </ClCompile>
+    <ClCompile Include="StrategyProcessing.cpp">
+      <Filter>源文件\Test</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Data.h">
@@ -277,6 +295,9 @@
     </ClInclude>
     <ClInclude Include="Flyweight.h">
       <Filter>头文件\Flyweight</Filter>
+    </ClInclude>
+    <ClInclude Include="strategyDesign.h">
+      <Filter>头文件\Processing</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

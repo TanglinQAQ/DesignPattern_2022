@@ -56,6 +56,10 @@ int main()
 		case 11:
 			Flyweight();
 			break;
+		case 12:
+			//²âÊÔ²ßÂÔÄ£Ê½
+			StrategyProcessing_Client();
+			break;
 		default:
 			break;
 		}
