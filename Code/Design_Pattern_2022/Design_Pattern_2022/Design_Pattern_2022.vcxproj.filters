@@ -106,6 +106,12 @@
     <Filter Include="源文件\Flyweight">
       <UniqueIdentifier>{9b500829-fa1e-4785-a149-4c4f4c3dbe13}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\Prototype">
+      <UniqueIdentifier>{67b96311-f0c1-40ae-8879-0330579ee303}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Prototype">
+      <UniqueIdentifier>{a8967a9a-d554-425d-978b-2c2afab2fdfd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -225,6 +231,12 @@
     <ClCompile Include="FlyweightManage.cpp">
       <Filter>源文件\Test</Filter>
     </ClCompile>
+    <ClCompile Include="Prototype.cpp">
+      <Filter>源文件\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="pack.cpp">
+      <Filter>源文件\Prototype</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Data.h">
@@ -277,6 +289,9 @@
     </ClInclude>
     <ClInclude Include="Flyweight.h">
       <Filter>头文件\Flyweight</Filter>
+    </ClInclude>
+    <ClInclude Include="pack.h">
+      <Filter>头文件\Prototype</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -13,3 +13,5 @@ void market();
 void Facade();
 
 void Flyweight();
+
+void Prototype_Manage();

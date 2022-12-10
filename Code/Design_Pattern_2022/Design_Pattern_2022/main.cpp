@@ -56,6 +56,11 @@ int main()
 		case 11:
 			Flyweight();
 			break;
+		case 12:
+			//测试原型模式
+			Prototype_Manage();
+			break;
+
 		default:
 			break;
 		}
