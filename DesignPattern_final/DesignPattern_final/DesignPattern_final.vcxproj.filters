@@ -69,6 +69,9 @@
     <ClInclude Include="head\Test\test.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="head\Processing\ChainOfResponsibility.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="code\patterns\Farming\farmingFactory\Li_farmingFactory.cpp">
@@ -210,6 +213,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="code\test\VisitorManage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\test\ChainOfResponsibility.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

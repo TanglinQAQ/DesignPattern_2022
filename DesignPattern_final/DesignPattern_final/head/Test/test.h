@@ -14,3 +14,4 @@ void Facade();
 void Flyweight();
 void StrategyProcessing_Client();
 void Prototype_Manage();
+void ChainOfResponsibility();

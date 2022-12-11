@@ -11,7 +11,7 @@ int main()
 {
 	Database DB = DB.get_DB();
 	while (1) {
-		//cout << "请选择现在要进行的操作：" << endl;
+		cout << "请选择现在要进行的操作：" << endl;
 		int oper;
 		cin >> oper;
 		switch (oper) {
@@ -58,6 +58,10 @@ int main()
 			//测试享元模式
 		case 11:
 			Flyweight();
+			break;
+		case 12:
+			//测试责任链模式
+			ChainOfResponsibility();
 			break;
 		default:
 			break;
