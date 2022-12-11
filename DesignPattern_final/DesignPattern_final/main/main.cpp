@@ -11,12 +11,13 @@ int main()
 {
 	Database DB = DB.get_DB();
 	while (1) {
-		cout << "请选择现在要进行的操作：" << endl;
+		cout << "请选择现在要进行的操作(1-12)：" << endl;
 		int oper;
 		cin >> oper;
 		switch (oper) {
 		case 1:
 			//测试采购
+			cout << "采购功能：" << endl;
 			FarmStocking_Client();
 			break;
 		case 2:
@@ -62,6 +63,25 @@ int main()
 		case 12:
 			//测试责任链模式
 			ChainOfResponsibility();
+			break;
+		case 13:
+			//测试加工品打包
+			Prototype_Manage();
+			break;
+		case 14:
+			MediatorManage();
+			break;
+		case 15:
+			CommandManage();
+			break;
+		case 16:
+			buildertest();
+			break;
+		case 17:
+			proxytest();
+			break;
+		case 18:
+			templatetest();
 			break;
 		default:
 			break;

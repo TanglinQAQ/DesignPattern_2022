@@ -72,6 +72,15 @@
     <ClInclude Include="head\Processing\ChainOfResponsibility.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="head\Processing\pack.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="head\Selling\person.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="head\Managing\logManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="code\patterns\Farming\farmingFactory\Li_farmingFactory.cpp">
@@ -216,6 +225,27 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="code\test\ChainOfResponsibility.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\patterns\Processing\pack\pack.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Code\Design_Pattern_2022\Design_Pattern_2022\Prototype.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\test\Prototype.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\patterns\Selling\person\person.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\test\MediatorManage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\patterns\Managing\logManager\logManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\test\log.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

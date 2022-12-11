@@ -42,13 +42,13 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
@@ -145,6 +145,7 @@
     <ClInclude Include="head\Farming\farmHouseConstructTemplate.h" />
     <ClInclude Include="head\Farming\farmingFactory.h" />
     <ClInclude Include="head\Farming\ImplementorAndAbs.h" />
+    <ClInclude Include="head\Managing\logManager.h" />
     <ClInclude Include="head\Managing\Memo.h" />
     <ClInclude Include="head\Managing\Observer.h" />
     <ClInclude Include="head\Managing\Visitor.h" />
@@ -152,14 +153,17 @@
     <ClInclude Include="head\Processing\ChainOfResponsibility.h" />
     <ClInclude Include="head\Processing\composeDesign.h" />
     <ClInclude Include="head\Processing\iteratorDesign.h" />
+    <ClInclude Include="head\Processing\pack.h" />
     <ClInclude Include="head\Processing\State.h" />
     <ClInclude Include="head\Processing\strategyDesign.h" />
     <ClInclude Include="head\Selling\Center factory.h" />
     <ClInclude Include="head\Selling\Flyweight.h" />
     <ClInclude Include="head\Selling\Market.h" />
+    <ClInclude Include="head\Selling\person.h" />
     <ClInclude Include="head\Test\test.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Code\Design_Pattern_2022\Design_Pattern_2022\Prototype.cpp" />
     <ClCompile Include="code\patterns\DAO\animalprocessDAOImpl.cpp" />
     <ClCompile Include="code\patterns\DAO\farmingDAOImpl.cpp" />
     <ClCompile Include="code\patterns\Farming\breedBuilderImpl\cattleBuilderImpl.cpp" />
@@ -169,6 +173,7 @@
     <ClCompile Include="code\patterns\Farming\farmHouseConstruct\houseConstructorImpl.cpp" />
     <ClCompile Include="code\patterns\Farming\farmingFactory\Li_farmingFactory.cpp" />
     <ClCompile Include="code\patterns\Farming\farmingFactory\Wang_farmingFactory.cpp" />
+    <ClCompile Include="code\patterns\Managing\logManager\logManager.cpp" />
     <ClCompile Include="code\patterns\Managing\memory\memory.cpp" />
     <ClCompile Include="code\patterns\Managing\observer\observer.cpp" />
     <ClCompile Include="code\patterns\Managing\vistor\visitor.cpp" />
@@ -182,6 +187,7 @@
     <ClCompile Include="code\patterns\Processing\iteratorDesign\ChickenIterator.cpp" />
     <ClCompile Include="code\patterns\Processing\iteratorDesign\ProcessCattle.cpp" />
     <ClCompile Include="code\patterns\Processing\iteratorDesign\ProcessChicken.cpp" />
+    <ClCompile Include="code\patterns\Processing\pack\pack.cpp" />
     <ClCompile Include="code\patterns\Processing\state\state.cpp" />
     <ClCompile Include="code\patterns\Processing\strategyDesign\ProcessFactory.cpp" />
     <ClCompile Include="code\patterns\Processing\strategyDesign\ProcessingCattle.cpp" />
@@ -190,6 +196,7 @@
     <ClCompile Include="code\patterns\Selling\facade\Center factory.cpp" />
     <ClCompile Include="code\patterns\Selling\flyweight\flyweight.cpp" />
     <ClCompile Include="code\patterns\Selling\market\sellerImpl.cpp" />
+    <ClCompile Include="code\patterns\Selling\person\person.cpp" />
     <ClCompile Include="code\test\AdapterProcessing.cpp" />
     <ClCompile Include="code\test\BridgeManage.cpp" />
     <ClCompile Include="code\test\BuilderTest.cpp" />
@@ -201,7 +208,10 @@
     <ClCompile Include="code\test\FarmStocking.cpp" />
     <ClCompile Include="code\test\FlyweightManage.cpp" />
     <ClCompile Include="code\test\IteratorProcessing.cpp" />
+    <ClCompile Include="code\test\log.cpp" />
     <ClCompile Include="code\test\Market.cpp" />
+    <ClCompile Include="code\test\MediatorManage.cpp" />
+    <ClCompile Include="code\test\Prototype.cpp" />
     <ClCompile Include="code\test\ProxyTest.cpp" />
     <ClCompile Include="code\test\StateManage.cpp" />
     <ClCompile Include="code\test\StrategyProcessing.cpp" />
