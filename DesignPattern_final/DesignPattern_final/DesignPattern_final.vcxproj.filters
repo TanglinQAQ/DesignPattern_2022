@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="head\DAO\Data.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="head\Farming\breedBuilder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="head\Farming\farmHouseConstructTemplate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="head\Farming\farmingFactory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="head\Farming\Abstraction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="head\Farming\ImplementorAndAbs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="head\Processing\adapterDesign.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="head\Processing\composeDesign.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="head\Processing\iteratorDesign.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="head\Processing\strategyDesign.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="head\Selling\Market.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="head\Selling\Flyweight.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="head\Processing\State.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="head\Managing\Memo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="head\Selling\Center factory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="head\Managing\Observer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="head\Managing\Visitor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="head\Test\test.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="code\patterns\Farming\farmingFactory\Li_farmingFactory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\patterns\Farming\breedBuilderImpl\cattleBuilderImpl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\patterns\Farming\breedBuilderImpl\chickenBuilderImpl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\patterns\Farming\breedBuilderImpl\pigBuilderImpl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\patterns\Processing\adapteDesign\CattleAdapter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\patterns\Processing\adapteDesign\CattleImpl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\patterns\Processing\adapteDesign\ChickenImpl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\patterns\Processing\adapteDesign\ProcessFactoryImpl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\patterns\Processing\composeDesign\ComFactory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\patterns\Processing\composeDesign\ProcessCattleFactory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\patterns\Processing\iteratorDesign\CattleIterator .cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\patterns\Processing\iteratorDesign\ChickenIterator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\patterns\Processing\iteratorDesign\ProcessCattle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\patterns\Processing\iteratorDesign\ProcessChicken.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\patterns\Processing\strategyDesign\ProcessFactory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\patterns\Processing\strategyDesign\ProcessingCattle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\patterns\Processing\strategyDesign\ProcessingChicken.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\patterns\Processing\strategyDesign\ProcessingPig.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\patterns\Farming\farmHouseConstruct\houseConstructorImpl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\patterns\Selling\market\sellerImpl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\patterns\Farming\bridge\bridge.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\patterns\Farming\farmingFactory\Wang_farmingFactory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\patterns\Processing\state\state.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\patterns\Managing\vistor\visitor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\patterns\Selling\facade\Center factory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\patterns\Managing\memory\memory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\patterns\Managing\observer\observer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\patterns\DAO\animalprocessDAOImpl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\patterns\DAO\farmingDAOImpl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\patterns\Selling\flyweight\flyweight.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main\main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\test\AdapterProcessing.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\test\BridgeManage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\test\BuilderTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\test\ComposeProcessing.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\test\DB_init.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\test\FarmStocking.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\test\FlyweightManage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\test\IteratorProcessing.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\test\ProxyTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\test\StateManage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\test\StrategyProcessing.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\test\TemplateTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\test\Facade.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\test\factory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\test\Market.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\test\VisitorManage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
