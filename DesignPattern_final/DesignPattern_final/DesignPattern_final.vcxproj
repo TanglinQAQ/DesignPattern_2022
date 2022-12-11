@@ -163,7 +163,6 @@
     <ClInclude Include="head\Test\test.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Code\Design_Pattern_2022\Design_Pattern_2022\Prototype.cpp" />
     <ClCompile Include="code\patterns\DAO\animalprocessDAOImpl.cpp" />
     <ClCompile Include="code\patterns\DAO\farmingDAOImpl.cpp" />
     <ClCompile Include="code\patterns\Farming\breedBuilderImpl\cattleBuilderImpl.cpp" />

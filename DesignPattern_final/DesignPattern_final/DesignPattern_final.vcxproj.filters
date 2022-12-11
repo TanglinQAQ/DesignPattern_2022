@@ -230,9 +230,6 @@
     <ClCompile Include="code\patterns\Processing\pack\pack.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Code\Design_Pattern_2022\Design_Pattern_2022\Prototype.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="code\test\Prototype.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
