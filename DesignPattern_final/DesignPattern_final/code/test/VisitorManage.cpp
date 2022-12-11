@@ -4,6 +4,7 @@
 using namespace std;
 
 void Visitor_manage() {
+	cout << "我是加工厂老板，商品已经上线，欢迎领导视察、顾客前来购买" << endl;
 	cout << "********" << "开始访问农产品工厂" << "********" << endl;
 	Apple a1;
 	Chicken c1;
@@ -12,11 +13,12 @@ void Visitor_manage() {
 	Farm_manager manager;
 	manager.setName("李四");
 
-	cout << "*******" << "1-以农村管理员身份访问" << "*******" << endl;
-	cout << "*******" << "2-以顾客身份访问" << "*******" << endl;
-	cout << "*******" << "0-退出" << "*********************" << endl;
+	cout << "1-以上级领导身份访问" << endl;
+	cout << "2-以顾客身份访问" << endl;
+	cout << "0-退出" << endl;
 	int r;
 	while (true) {
+		cin.clear();
 		cin >> r;
 		if (r == 1) {
 			a1.accept(&manager);

@@ -26,11 +26,11 @@ void  Customer::visit(Chicken* chicken)
 void  Farm_manager::visit(Apple* apple)
 {
 	cout << "# 使用访问者模式" << endl;
-	cout << "农场管理者" << name << "查看了苹果销售额。" << endl;
+	cout << "领导" << name << "查看了苹果销售额。" << endl;
 }
 
 void  Farm_manager::visit(Chicken* chicken)
 {
 	cout << "# 使用访问者模式" << endl;
-	cout << "农场管理者" << name << "查看了烤鸡销售额。" << endl;
+	cout << "领导" << name << "查看了烤鸡销售额。" << endl;
 }

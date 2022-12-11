@@ -5,25 +5,25 @@ using namespace std;
 
 void templatetest()
 {
-	cout << "#开始测试template模板方法模式#" << endl;
-	cout << "三种动物的居住场所的建造流程视为稳定不变的流程，个别细节在子类中区别性实现" << endl << endl;
-	cout << "********" << "开始建造牛棚" << "********" << endl;
+	cout << "我是养殖场负责人，接下来我来为您讲解我们的养殖环境" << endl;
+	cout << "# 使用template模板方法模式#" << endl;
+	cout << "********" << "牛棚是这样的" << "********" << endl;
 	houseConstructor* cattlehouseconstructor = new cowshedConstructorImpl();
 	cattlehouseconstructor->houseConstruct();
 	delete[] cattlehouseconstructor;
 	cout << endl;
 
-	cout << "********" << "开始建造鸡舍" << "********" << endl;
+	cout << "********" << "鸡舍是这样的" << "********" << endl;
 	houseConstructor* chickenhouseconstructor = new henhouseConstructorImpl();
 	chickenhouseconstructor->houseConstruct();
 	delete[] chickenhouseconstructor;
 	cout << endl;
 
-	cout << "********" << "开始建造猪圈" << "********" << endl;
+	cout << "********" << "猪圈是这样的" << "********" << endl;
 	houseConstructor* pighouseconstructor = new hogpenConstructorImpl();
 	pighouseconstructor->houseConstruct();
 	delete[] pighouseconstructor;
 	cout << endl;
 
-	cout << "测试结束" << endl << endl;
+	cout << "说明结束" << endl << endl;
 }

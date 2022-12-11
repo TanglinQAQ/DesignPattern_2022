@@ -4,5 +4,5 @@
 using namespace std;
 void ProcessingCattle::ProcessingInterface()
 {
-	cout << "我是加工牛的方法" << endl;
+	cout << "加工牛的方法：... ..." << endl;
 }

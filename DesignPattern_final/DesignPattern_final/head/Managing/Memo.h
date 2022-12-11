@@ -17,7 +17,7 @@ class Originator {
 	int number;
 	void setnumber(int number) {
 		this->number = number;
-		cout << "目前工厂里的动物总数是:" << this->number << endl;;
+		cout << "此时工厂里的牲畜总数是:" << this->number << endl;;
 	}
 	int getnumber() {
 		return this->number;

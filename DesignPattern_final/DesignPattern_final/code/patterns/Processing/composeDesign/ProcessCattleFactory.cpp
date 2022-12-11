@@ -28,7 +28,7 @@ ProcessFactory* ProcessCattleFactory::GetChild(int index) {
 }
 
 void ProcessCattleFactory::print() {
-	cout << "现在加工牛工厂有的组件有：" << endl;
+	cout << "现在负责加工牛的车间的分车间有：" << endl;
 	for (vector<ProcessFactory*>::iterator it = vectorcom.begin(); it != vectorcom.end(); ++it) {
 		cout << (*it)->strcom << endl;
 	}

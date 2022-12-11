@@ -1,40 +1,40 @@
 #include"../../../../head/Selling/Center factory.h"
 
 void ZhangFamily::buy_sheep(int n) {
-	cout << "买了" << n << "头张家的羊" << endl;
+	cout << "我准备买" << n << "头李家的猪" << endl;
 }
 void ZhangFamily::buy_cattle(int n)
 {
-	cout << "买了" << n << "头张家的牛" << endl;
+	cout << "我准备买" << n << "头李家的牛" << endl;
 }
 void ZhangFamily::buy_chicken(int n) {
-	cout << "买了" << n << "头张家的鸡" << endl;
+	cout << "我准备买" << n << "头李家的鸡" << endl;
 }
 
 void WangFamily::buy_sheep(int n) {
-	cout << "买了" << n << "头王家的羊" << endl;
+	cout << "我准备买" << n << "头王家的猪" << endl;
 }
 void WangFamily::buy_cattle(int n)
 {
-	cout << "买了" << n << "头王家的牛" << endl;
+	cout << "我准备买" << n << "头王家的牛" << endl;
 }
 void WangFamily::buy_chicken(int n) {
-	cout << "买了" << n << "头王家的鸡" << endl;
+	cout << "我准备买" << n << "头王家的鸡" << endl;
 }
 
 void ChenFamily::buy_sheep(int n) {
-	cout << "买了" << n << "头陈家的羊" << endl;
+	cout << "我准备买" << n << "头陈家的猪" << endl;
 }
 void ChenFamily::buy_cattle(int n)
 {
-	cout << "买了" << n << "头陈家的牛" << endl;
+	cout << "我准备买" << n << "头陈家的牛" << endl;
 }
 void ChenFamily::buy_chicken(int n) {
-	cout << "买了" << n << "头陈家的鸡" << endl;
+	cout << "我准备买" << n << "头陈家的鸡" << endl;
 }
 
 void Sale_factory::Buy() {
-	cout << "你要购买的是羊(0)还是鸡(1)还是牛(2)" << endl;
+	cout << "您要采购的是猪(0)还是牛(1)还是鸡(2)" << endl;
 	int option, number;
 	int n;
 	cin >> option;

@@ -15,7 +15,7 @@ class VegetablePackage : public Package {
 public:
 	VegetablePackage(int w, int l, int h, string c) : width(w),
 		length(l), height(h), color(c) {
-		cout << "创建蔬菜包：" << endl;
+		cout << "进行烤鸡包装：" << endl;
 		cout << "尺寸" << width << "x" << length << "x" << height << endl;
 		cout << "颜色" << color << endl;
 	}
@@ -41,7 +41,7 @@ class MeatPackage : public Package {
 public:
 	MeatPackage(int w, int l, int h, string c) : width(w),
 		length(l), height(h), color(c) {
-		cout << "创建肉类包：" << endl;
+		cout << "进行卤猪肉包装：" << endl;
 		cout << "尺寸" << width << "x" << length << "x" << height << endl;
 		cout << "颜色" << color << endl;
 	}

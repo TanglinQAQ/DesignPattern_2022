@@ -27,12 +27,6 @@
     <ClInclude Include="head\Farming\farmingFactory.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="head\Farming\Abstraction.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="head\Farming\ImplementorAndAbs.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="head\Processing\adapterDesign.h">
       <Filter>头文件</Filter>
     </ClInclude>
@@ -79,6 +73,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="head\Managing\logManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="head\Farming\bridge_flyweight.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
@@ -143,9 +140,6 @@
     <ClCompile Include="code\patterns\Selling\market\sellerImpl.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="code\patterns\Farming\bridge\bridge.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="code\patterns\Farming\farmingFactory\Wang_farmingFactory.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -170,19 +164,25 @@
     <ClCompile Include="code\patterns\DAO\farmingDAOImpl.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="code\patterns\Selling\flyweight\flyweight.cpp">
+    <ClCompile Include="main\main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="main\main.cpp">
+    <ClCompile Include="code\patterns\Processing\pack\pack.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\patterns\Selling\person\person.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\patterns\Managing\logManager\logManager.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="code\test\AdapterProcessing.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="code\test\BridgeManage.cpp">
+    <ClCompile Include="code\test\BuilderTest.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="code\test\BuilderTest.cpp">
+    <ClCompile Include="code\test\ChainOfResponsibility.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="code\test\ComposeProcessing.cpp">
@@ -191,13 +191,31 @@
     <ClCompile Include="code\test\DB_init.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="code\test\Facade.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\test\factory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
     <ClCompile Include="code\test\FarmStocking.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="code\test\FlyweightManage.cpp">
+    <ClCompile Include="code\test\bridge_flyweightManage.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="code\test\IteratorProcessing.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\test\log.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\test\Market.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\test\MediatorManage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\test\Prototype.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="code\test\ProxyTest.cpp">
@@ -212,37 +230,10 @@
     <ClCompile Include="code\test\TemplateTest.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="code\test\Facade.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="code\test\factory.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="code\test\Market.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="code\test\VisitorManage.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="code\test\ChainOfResponsibility.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="code\patterns\Processing\pack\pack.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="code\test\Prototype.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="code\patterns\Selling\person\person.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="code\test\MediatorManage.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="code\patterns\Managing\logManager\logManager.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="code\test\log.cpp">
+    <ClCompile Include="code\patterns\Farming\bridge_flyweight\bridge_flyweight.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

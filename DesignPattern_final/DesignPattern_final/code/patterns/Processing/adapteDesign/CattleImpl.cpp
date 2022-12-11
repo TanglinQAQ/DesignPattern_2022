@@ -4,7 +4,7 @@
 using namespace std;
 
 string CattleImpl::getcattle() {
-	string msg = "cattle";
+	string msg = "ţ";
 	return msg;
 }
 

@@ -86,7 +86,7 @@ class Sale_factory {
 	friend void Facade();
 	CenterFactory* sales;
 	Sale_factory() {
-		cout << "这里是销售工厂，你可以购买牛羊鸡。" << endl;
+		cout << "我是采购员，请问需要采购什么？" << endl;
 		sales = new CenterFactory();
 	}
 	~Sale_factory() {

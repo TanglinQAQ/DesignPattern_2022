@@ -4,7 +4,7 @@
 using namespace std;
 
 string ChickenImpl::getchicken() {
-	string msg = "chicken";
+	string msg = "¼¦";
 	return msg;
 }
 

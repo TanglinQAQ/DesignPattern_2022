@@ -7,11 +7,10 @@ void State_manage();//״̬ģʽ
 void Visitor_manage();
 void IteratorProcessing_Client(Database& DB);
 void ComposeProcessing_Client();
-void Bridge_Manage();
+void BridgeAndFly();
 void factory();
 void market();
 void Facade();
-void Flyweight();
 void StrategyProcessing_Client();
 void Prototype_Manage();
 void ChainOfResponsibility();

@@ -140,11 +140,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="head\DAO\Data.h" />
-    <ClInclude Include="head\Farming\Abstraction.h" />
     <ClInclude Include="head\Farming\breedBuilder.h" />
+    <ClInclude Include="head\Farming\bridge_flyweight.h" />
     <ClInclude Include="head\Farming\farmHouseConstructTemplate.h" />
     <ClInclude Include="head\Farming\farmingFactory.h" />
-    <ClInclude Include="head\Farming\ImplementorAndAbs.h" />
     <ClInclude Include="head\Managing\logManager.h" />
     <ClInclude Include="head\Managing\Memo.h" />
     <ClInclude Include="head\Managing\Observer.h" />
@@ -168,7 +167,7 @@
     <ClCompile Include="code\patterns\Farming\breedBuilderImpl\cattleBuilderImpl.cpp" />
     <ClCompile Include="code\patterns\Farming\breedBuilderImpl\chickenBuilderImpl.cpp" />
     <ClCompile Include="code\patterns\Farming\breedBuilderImpl\pigBuilderImpl.cpp" />
-    <ClCompile Include="code\patterns\Farming\bridge\bridge.cpp" />
+    <ClCompile Include="code\patterns\Farming\bridge_flyweight\bridge_flyweight.cpp" />
     <ClCompile Include="code\patterns\Farming\farmHouseConstruct\houseConstructorImpl.cpp" />
     <ClCompile Include="code\patterns\Farming\farmingFactory\Li_farmingFactory.cpp" />
     <ClCompile Include="code\patterns\Farming\farmingFactory\Wang_farmingFactory.cpp" />
@@ -193,11 +192,9 @@
     <ClCompile Include="code\patterns\Processing\strategyDesign\ProcessingChicken.cpp" />
     <ClCompile Include="code\patterns\Processing\strategyDesign\ProcessingPig.cpp" />
     <ClCompile Include="code\patterns\Selling\facade\Center factory.cpp" />
-    <ClCompile Include="code\patterns\Selling\flyweight\flyweight.cpp" />
     <ClCompile Include="code\patterns\Selling\market\sellerImpl.cpp" />
     <ClCompile Include="code\patterns\Selling\person\person.cpp" />
     <ClCompile Include="code\test\AdapterProcessing.cpp" />
-    <ClCompile Include="code\test\BridgeManage.cpp" />
     <ClCompile Include="code\test\BuilderTest.cpp" />
     <ClCompile Include="code\test\ChainOfResponsibility.cpp" />
     <ClCompile Include="code\test\ComposeProcessing.cpp" />
@@ -205,7 +202,7 @@
     <ClCompile Include="code\test\Facade.cpp" />
     <ClCompile Include="code\test\factory.cpp" />
     <ClCompile Include="code\test\FarmStocking.cpp" />
-    <ClCompile Include="code\test\FlyweightManage.cpp" />
+    <ClCompile Include="code\test\bridge_flyweightManage.cpp" />
     <ClCompile Include="code\test\IteratorProcessing.cpp" />
     <ClCompile Include="code\test\log.cpp" />
     <ClCompile Include="code\test\Market.cpp" />

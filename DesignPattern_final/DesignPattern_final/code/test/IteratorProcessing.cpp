@@ -10,13 +10,14 @@ using namespace std;
 
 void IteratorProcessing_Client(Database &DB)
 {
-	//从数据库拿数据，获得待加工的动物
-	cout << "********" << "开始从数据库获得要加工的动物们" << "********" << endl;
+	cout << "我是车间主任，现在开始流水线式加工原材料" << endl;
+	//从数据库拿数据，获得待加工的牲畜
+	cout << "********" << "开始从数据库获得要加工的牲畜" << "********" << endl;
 	vector<AnimalProcess> animals = DB.get_animals();
-	//开始将代加工的动物进行分类，放到不同的类别中
+	//开始将代加工的牲畜进行分类，放到不同的类别中
 	ProcessCattle processcattle;
 	ProcessChicken processchicken;
-	cout << "********" << "开始将要加工的动物们分类" << "********" << endl;
+	cout << "********" << "开始将要加工的牲畜分类" << "********" << endl;
 	for (int i = 0; i < animals.size(); i++) {
 		if (animals[i].type_name == Farming_Type::cattle) //是牛，插入到牛数组中
 			processcattle.addItem(animals[i]);
@@ -24,8 +25,8 @@ void IteratorProcessing_Client(Database &DB)
 			processchicken.addItem(animals[i]);
 
 	}
-	//开始创建迭代器，分别进行动物们的加工
-	cout << "********" << "开始将分工后的动物进行加工" << "********" << endl;
+	//开始创建迭代器，分别进行牲畜的加工
+	cout << "********" << "开始将分工后的牲畜进行加工" << "********" << endl;
 	auto caiter = processcattle.createIterator();
 	auto chiter = processchicken.createIterator();
 	//加工牛

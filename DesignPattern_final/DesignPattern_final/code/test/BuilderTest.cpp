@@ -5,8 +5,8 @@ using namespace std;
 
 void buildertest()
 {
-	cout << "#开始测试builder建造者模式#" << endl;
-	cout << "三种动物的总体饲养流程类似，但对于不同的动物的具体饲养内容有所差异" << endl << endl;
+	cout << "我是养殖场的饲养员，我来为您介绍养殖场的饲养方案" << endl;
+	cout << "# 使用builder建造者模式#" << endl;
 	cout << "********" << "开始描述牛的饲养方案" << "********" << endl;
 	breedBuilder* cattlebuilder = new cattleBuilderImpl();
 	cattlebuilder->feed();
