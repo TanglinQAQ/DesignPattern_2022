@@ -19,3 +19,7 @@ void CommandManage();
 void buildertest();
 void proxytest();
 void templatetest();
+void InterpreterPattern_Client();
+void transferBojectPattern_Client();
+void DelegatePattern_Client();
+void SubscribePattern_Client();

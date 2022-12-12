@@ -78,6 +78,24 @@
     <ClInclude Include="head\Farming\bridge_flyweight.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="head\Processing\Context.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="head\Processing\Interpret.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="head\Processing\TransferObject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="head\Processing\DelegatePattern.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="head\Processing\SubscribePattern.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="head\Processing\CRTPpattern.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="code\patterns\Farming\farmingFactory\Li_farmingFactory.cpp">
@@ -236,5 +254,47 @@
     <ClCompile Include="code\patterns\Farming\bridge_flyweight\bridge_flyweight.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="code\patterns\Processing\InterpreterDesign\Interpret.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\test\InterpretDesign.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\patterns\Processing\TransferObject\Cattle2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\patterns\Processing\TransferObject\ProcessFactory4.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\test\TransferObjectPattern.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\patterns\Processing\DelegatePattern\Man1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\patterns\Processing\DelegatePattern\Man2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\test\DelegatePattern.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\patterns\Processing\SubscribePattern\Event.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\patterns\Processing\SubscribePattern\Receiver.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\patterns\Processing\SubscribePattern\Messageprocess.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\patterns\Processing\SubscribePattern\MessageCenter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\test\SubscribePattern.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
 </Project>
