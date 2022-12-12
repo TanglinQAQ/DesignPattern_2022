@@ -10,7 +10,7 @@ using namespace std;
 
 void IteratorProcessing_Client(Database &DB)
 {
-	cout << "我是车间主任，现在开始流水线式加工原材料" << endl;
+	cout << "【我是车间主任，现在开始流水线式加工原材料】" << endl << endl;
 	//从数据库拿数据，获得待加工的牲畜
 	cout << "********" << "开始从数据库获得要加工的牲畜" << "********" << endl;
 	vector<AnimalProcess> animals = DB.get_animals();

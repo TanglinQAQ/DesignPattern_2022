@@ -4,7 +4,7 @@ using namespace std;
 
 void factory() {
 	cin.clear();
-	cout << "我是采购员，我负责记录下这几天的材料消耗情况" << endl;
+	cout << "【我是采购员，我负责记录下这几天的材料消耗情况】" << endl << endl;
 	CareTaker* careTaker = new CareTaker();
 	Originator* originator = new Originator();
 	int number;

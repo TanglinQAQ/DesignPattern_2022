@@ -5,7 +5,7 @@
 
 void BridgeAndFly()
 {
-    cout << "我是采购员，现在我要了解下去各养殖场的库存，然后下订单" << endl;
+    cout << "【我是采购员，现在我要了解下去各养殖场的库存，然后下订单】" << endl << endl;
     cout << "# 使用享元模式和桥接模式#" << endl;
     // 新建两个养殖场
     Farm* farmLi = new ConcreteFarm();

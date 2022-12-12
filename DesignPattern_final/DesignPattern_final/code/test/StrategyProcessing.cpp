@@ -6,7 +6,7 @@ using namespace DATA;
 
 void StrategyProcessing_Client()
 {
-	cout << "我是加工车间主任，现在我来制定加工的方法" << endl;
+	cout << "【我是加工车间主任，现在我来制定加工的方法】" << endl << endl;
 	cout << "# 使用策略模式\n";
 	//创建牛加工厂对象
 	cout << "********" << "加工牛是这样的" << "********" << endl;

@@ -4,10 +4,7 @@
 using namespace std;
 
 void proxytest() {
-    cout << "#开始测试template模板方法模式#" << endl;
-    cout << "商品的销售可以通过localseller也可以通过proxyseller完成" << endl << endl;
+    cout << "【我是加工厂销售部负责人，每个车间的产品交由销售部统一销售】" << endl << endl;
     Good* mygooder = new proxySeller();
     mygooder->sellgood();
-
-    cout << "测试结束" << endl << endl;
 }

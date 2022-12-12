@@ -42,8 +42,7 @@ public:
     // 实现handle函数
     void handle(const Farming_Type& type) override
     {
-        cout << "责任链的收获处理者 正在收获：" << mp(type) << std::endl;
-        cout << "************************" << std::endl;
+        cout << "责任链的清洗处理者 正在清洗：" << mp(type) << std::endl;
     }
 };
 
@@ -54,8 +53,7 @@ public:
     // 实现handle函数
     void handle(const Farming_Type& type) override
     {
-        cout << "责任链的加工处理者 正在加工：" << mp(type) << std::endl;
-        cout << "************************" << std::endl;
+        cout << "责任链的分割处理者 正在分割：" << mp(type) << std::endl;
     }
 };
 
@@ -66,8 +64,7 @@ public:
     // 实现handle函数
     void handle(const Farming_Type& type) override
     {
-        cout << "责任链的销售处理者 正在销售：" << mp(type) << std::endl;
-        cout << "************************" << std::endl;
+        cout << "责任链的烹饪处理者 正在烹饪：" << mp(type) << std::endl;
     }
 };
 

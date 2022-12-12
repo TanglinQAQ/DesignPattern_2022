@@ -5,7 +5,7 @@ using namespace std;
 
 void buildertest()
 {
-	cout << "我是养殖场的饲养员，我来为您介绍养殖场的饲养方案" << endl;
+	cout << "【我是养殖场的饲养员，我来为您介绍养殖场的饲养方案】" << endl << endl;
 	cout << "# 使用builder建造者模式#" << endl;
 	cout << "********" << "开始描述牛的饲养方案" << "********" << endl;
 	breedBuilder* cattlebuilder = new cattleBuilderImpl();
@@ -30,6 +30,4 @@ void buildertest()
 	pigbuilder->keephealthy();
 	delete[] pigbuilder;
 	cout << endl;
-
-	cout << "测试结束" << endl << endl;
 }

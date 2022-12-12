@@ -14,7 +14,7 @@ class Person {
 public:
 	virtual void setMediator(Mediator* mediator) {};
 	virtual void sendMessage(string msg) = 0;
-	virtual void getMessage() {};
+	virtual void getMessage(string msg) {};
 protected:
 	Mediator* m_mediator;
 };

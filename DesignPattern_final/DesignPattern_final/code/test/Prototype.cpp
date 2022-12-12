@@ -4,7 +4,7 @@
 using namespace std;
 
 void Prototype_Manage() {
-	cout << "我是打包工人，现在我要对产品进行包装" << endl;
+	cout << "【我是打包工人，现在我要对产品进行包装】" << endl << endl;
 	cout << "# 使用原型模式" << endl;
 	//创建菜包对象
 	VegetablePackage* vegetable1 = new VegetablePackage(10, 20, 30, "yellow");

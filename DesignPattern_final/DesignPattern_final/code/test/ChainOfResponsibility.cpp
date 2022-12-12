@@ -2,12 +2,12 @@
 
 void ChainOfResponsibility()
 {
-	cout << "---开始测试责任链模式---" << std::endl;
+	cout << "【我是车间主任，在加工厂开放日时我负责展示食品流水加工过程】" << endl << endl;
+	cout << "# 使用责任链模式" << std::endl;
 	cout << "请输入需要处理的养殖类型：" << endl;
 	cout << "1：牛（cattle）" << endl;
 	cout << "2：鸡（chicken）" << endl;
 	cout << "3：猪（pig）" << endl;
-	cout << "其他：牛（cattle）" << endl;
 	int op; cin >> op;
 	Farming_Type type;
 	switch (op)
@@ -22,7 +22,6 @@ void ChainOfResponsibility()
 		type = Farming_Type::pig;
 		break;
 	default:
-		type = Farming_Type::cattle;
 		break;
 	}
 	cout << "---开始处理---" << endl;

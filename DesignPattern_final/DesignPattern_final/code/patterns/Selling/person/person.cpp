@@ -13,10 +13,10 @@ void TradeMediator::setClient(Person* p) {
 
 void TradeMediator::sendMsg(Person* p, string msg) {
     if (p == m_host) {
-        m_client->getMessage();
+        m_client->getMessage(msg);
     }
     else {
-        m_host->getMessage();
+        m_host->getMessage(msg);
     }
 }
 

@@ -4,7 +4,7 @@ using namespace std;
 
 void ComposeProcessing_Client()
 {
-	cout << "我是车间主任，现在开始分部位对牲畜进行加工" << endl;
+	cout << "【我是车间主任，现在开始分部位对牲畜进行加工】" << endl << endl;
 	//创建加工厂对象
 	cout << "********" << "开始加工牛的工序" << "********" << endl;
 	ProcessFactory* pNode = new ProcessCattleFactory("牛工厂加工总部");

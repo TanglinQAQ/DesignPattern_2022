@@ -4,7 +4,7 @@ using namespace std;
 
 void FarmStocking_Client()
 {
-	cout << "我是采购员，之前下完订单，现在我来提货了" << endl;
+	cout << "【我是采购员，之前下完订单，现在我来提货了】" << endl << endl;
 	cout << "********" << "开始从老王养殖场提货" << "********" << endl;
 	Farming_AbstractFactory*  Wang= new WangFarming_Factory();
 	cout << "正在采购牛：" << endl;

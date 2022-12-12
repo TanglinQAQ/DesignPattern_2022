@@ -4,7 +4,7 @@
 using namespace std;
 
 void Visitor_manage() {
-	cout << "我是加工厂老板，商品已经上线，欢迎领导视察、顾客前来购买" << endl;
+	cout << "【我是加工厂老板，商品已经上线，欢迎领导视察、顾客前来购买】" << endl << endl;
 	cout << "********" << "开始访问农产品工厂" << "********" << endl;
 	Apple a1;
 	Chicken c1;

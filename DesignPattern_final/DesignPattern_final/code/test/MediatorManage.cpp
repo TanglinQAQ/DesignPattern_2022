@@ -2,6 +2,8 @@
 
 void MediatorManage()
 {
+    cout << "【我是加盟的中间商，在加工厂和顾客之间传递信息】" << endl << endl;
+    cout << "# 使用中介者模式" << endl;
     TradeMediator* mediator = new TradeMediator();
     Wholesaler* host = new Wholesaler();
     host->setMediator(mediator);
@@ -9,6 +11,6 @@ void MediatorManage()
     client->setMediator(mediator);
     mediator->setClient(client);
     mediator->setHost(host);
-    client->sendMessage("我要买鸡100只");
-    host->sendMessage("这里有鸡300只要出售");
+    client->sendMessage("我要买20只烤鸡");
+    host->sendMessage("这里生产了10盒卤猪肉");
 }
