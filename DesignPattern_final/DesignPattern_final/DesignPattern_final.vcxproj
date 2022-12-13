@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{970bdb9e-9149-4e87-96b4-d3c3c67646c6}</ProjectGuid>
+    <RootNamespace>DesignPatternfinal</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="head\DAO\Data.h" />
+    <ClInclude Include="head\Farming\breedBuilder.h" />
+    <ClInclude Include="head\Farming\bridge_flyweight.h" />
+    <ClInclude Include="head\Farming\farmHouseConstructTemplate.h" />
+    <ClInclude Include="head\Farming\farmingFactory.h" />
+    <ClInclude Include="head\Managing\AbstractCustomer.h" />
+    <ClInclude Include="head\Managing\CustomerFactory.h" />
+    <ClInclude Include="head\Managing\logManager.h" />
+    <ClInclude Include="head\Managing\Memo.h" />
+    <ClInclude Include="head\Managing\Observer.h" />
+    <ClInclude Include="head\Managing\ShowProduct.h" />
+    <ClInclude Include="head\Managing\Visitor.h" />
+    <ClInclude Include="head\Processing\adapterDesign.h" />
+    <ClInclude Include="head\Processing\ChainOfResponsibility.h" />
+    <ClInclude Include="head\Processing\composeDesign.h" />
+    <ClInclude Include="head\Processing\Context.h" />
+    <ClInclude Include="head\Processing\CRTPpattern.h" />
+    <ClInclude Include="head\Processing\DelegatePattern.h" />
+    <ClInclude Include="head\Processing\Interpret.h" />
+    <ClInclude Include="head\Processing\iteratorDesign.h" />
+    <ClInclude Include="head\Processing\MultitonPattern.h" />
+    <ClInclude Include="head\Processing\pack.h" />
+    <ClInclude Include="head\Processing\State.h" />
+    <ClInclude Include="head\Processing\strategyDesign.h" />
+    <ClInclude Include="head\Processing\SubscribePattern.h" />
+    <ClInclude Include="head\Processing\TransferObject.h" />
+    <ClInclude Include="head\Selling\Center factory.h" />
+    <ClInclude Include="head\Selling\Flyweight.h" />
+    <ClInclude Include="head\Selling\Market.h" />
+    <ClInclude Include="head\Selling\person.h" />
+    <ClInclude Include="head\Test\test.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="code\patterns\DAO\animalprocessDAOImpl.cpp" />
+    <ClCompile Include="code\patterns\DAO\farmingDAOImpl.cpp" />
+    <ClCompile Include="code\patterns\Farming\breedBuilderImpl\cattleBuilderImpl.cpp" />
+    <ClCompile Include="code\patterns\Farming\breedBuilderImpl\chickenBuilderImpl.cpp" />
+    <ClCompile Include="code\patterns\Farming\breedBuilderImpl\pigBuilderImpl.cpp" />
+    <ClCompile Include="code\patterns\Farming\bridge_flyweight\bridge_flyweight.cpp" />
+    <ClCompile Include="code\patterns\Farming\farmHouseConstruct\houseConstructorImpl.cpp" />
+    <ClCompile Include="code\patterns\Farming\farmingFactory\Li_farmingFactory.cpp" />
+    <ClCompile Include="code\patterns\Farming\farmingFactory\Wang_farmingFactory.cpp" />
+    <ClCompile Include="code\patterns\Managing\customer\nullObject.cpp" />
+    <ClCompile Include="code\patterns\Managing\logManager\logManager.cpp" />
+    <ClCompile Include="code\patterns\Managing\memory\memory.cpp" />
+    <ClCompile Include="code\patterns\Managing\observer\observer.cpp" />
+    <ClCompile Include="code\patterns\Managing\product\showProduct.cpp" />
+    <ClCompile Include="code\patterns\Managing\vistor\visitor.cpp" />
+    <ClCompile Include="code\patterns\Processing\adapteDesign\CattleAdapter.cpp" />
+    <ClCompile Include="code\patterns\Processing\adapteDesign\CattleImpl.cpp" />
+    <ClCompile Include="code\patterns\Processing\adapteDesign\ChickenImpl.cpp" />
+    <ClCompile Include="code\patterns\Processing\adapteDesign\ProcessFactoryImpl.cpp" />
+    <ClCompile Include="code\patterns\Processing\composeDesign\ComFactory.cpp" />
+    <ClCompile Include="code\patterns\Processing\composeDesign\ProcessCattleFactory.cpp" />
+    <ClCompile Include="code\patterns\Processing\DelegatePattern\Man1.cpp" />
+    <ClCompile Include="code\patterns\Processing\DelegatePattern\Man2.cpp" />
+    <ClCompile Include="code\patterns\Processing\InterpreterDesign\Interpret.cpp" />
+    <ClCompile Include="code\patterns\Processing\iteratorDesign\CattleIterator .cpp" />
+    <ClCompile Include="code\patterns\Processing\iteratorDesign\ChickenIterator.cpp" />
+    <ClCompile Include="code\patterns\Processing\iteratorDesign\ProcessCattle.cpp" />
+    <ClCompile Include="code\patterns\Processing\iteratorDesign\ProcessChicken.cpp" />
+    <ClCompile Include="code\patterns\Processing\pack\pack.cpp" />
+    <ClCompile Include="code\patterns\Processing\state\state.cpp" />
+    <ClCompile Include="code\patterns\Processing\strategyDesign\ProcessFactory.cpp" />
+    <ClCompile Include="code\patterns\Processing\strategyDesign\ProcessingCattle.cpp" />
+    <ClCompile Include="code\patterns\Processing\strategyDesign\ProcessingChicken.cpp" />
+    <ClCompile Include="code\patterns\Processing\strategyDesign\ProcessingPig.cpp" />
+    <ClCompile Include="code\patterns\Processing\SubscribePattern\Event.cpp" />
+    <ClCompile Include="code\patterns\Processing\SubscribePattern\MessageCenter.cpp" />
+    <ClCompile Include="code\patterns\Processing\SubscribePattern\Messageprocess.cpp" />
+    <ClCompile Include="code\patterns\Processing\SubscribePattern\Receiver.cpp" />
+    <ClCompile Include="code\patterns\Processing\TransferObject\Cattle2.cpp" />
+    <ClCompile Include="code\patterns\Processing\TransferObject\ProcessFactory4.cpp" />
+    <ClCompile Include="code\patterns\Selling\facade\Center factory.cpp" />
+    <ClCompile Include="code\patterns\Selling\market\sellerImpl.cpp" />
+    <ClCompile Include="code\patterns\Selling\person\person.cpp" />
+    <ClCompile Include="code\test\AdapterProcessing.cpp" />
+    <ClCompile Include="code\test\BuilderTest.cpp" />
+    <ClCompile Include="code\test\ChainOfResponsibility.cpp" />
+    <ClCompile Include="code\test\ComposeProcessing.cpp" />
+    <ClCompile Include="code\test\DB_init.cpp" />
+    <ClCompile Include="code\test\DelegatePattern.cpp" />
+    <ClCompile Include="code\test\Facade.cpp" />
+    <ClCompile Include="code\test\factory.cpp" />
+    <ClCompile Include="code\test\FarmStocking.cpp" />
+    <ClCompile Include="code\test\bridge_flyweightManage.cpp" />
+    <ClCompile Include="code\test\InterpretDesign.cpp" />
+    <ClCompile Include="code\test\IteratorProcessing.cpp" />
+    <ClCompile Include="code\test\log.cpp" />
+    <ClCompile Include="code\test\Market.cpp" />
+    <ClCompile Include="code\test\MediatorManage.cpp" />
+    <ClCompile Include="code\test\MultitonTest.cpp" />
+    <ClCompile Include="code\test\NullObjectTest.cpp" />
+    <ClCompile Include="code\test\Prototype.cpp" />
+    <ClCompile Include="code\test\ProxyTest.cpp" />
+    <ClCompile Include="code\test\StateManage.cpp" />
+    <ClCompile Include="code\test\StaticFactory.cpp" />
+    <ClCompile Include="code\test\StrategyProcessing.cpp" />
+    <ClCompile Include="code\test\SubscribePattern.cpp" />
+    <ClCompile Include="code\test\TemplateTest.cpp" />
+    <ClCompile Include="code\test\TransferObjectPattern.cpp" />
+    <ClCompile Include="code\test\VisitorManage.cpp" />
+    <ClCompile Include="main\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="..\packages\pthreads.redist.2.9.1.4\build\native\pthreads.redist.targets" Condition="Exists('..\packages\pthreads.redist.2.9.1.4\build\native\pthreads.redist.targets')" />
+    <Import Project="..\packages\pthreads.2.9.1.4\build\native\pthreads.targets" Condition="Exists('..\packages\pthreads.2.9.1.4\build\native\pthreads.targets')" />
+  </ImportGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>这台计算机上缺少此项目引用的 NuGet 程序包。使用“NuGet 程序包还原”可下载这些程序包。有关更多信息，请参见 http://go.microsoft.com/fwlink/?LinkID=322105。缺少的文件是 {0}。</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\pthreads.redist.2.9.1.4\build\native\pthreads.redist.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\pthreads.redist.2.9.1.4\build\native\pthreads.redist.targets'))" />
+    <Error Condition="!Exists('..\packages\pthreads.2.9.1.4\build\native\pthreads.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\pthreads.2.9.1.4\build\native\pthreads.targets'))" />
+  </Target>
+</Project>

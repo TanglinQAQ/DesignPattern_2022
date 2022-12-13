@@ -40,9 +40,6 @@
     <Filter Include="头文件\Test">
       <UniqueIdentifier>{3d29b7aa-1036-4b2f-aa31-475e9b23fd28}</UniqueIdentifier>
     </Filter>
-    <Filter Include="头文件\Appearance">
-      <UniqueIdentifier>{affd3f75-dcaf-48e7-b8ee-a8da54da85fc}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\Facade">
       <UniqueIdentifier>{0f0bebf5-469b-4206-ac4b-50ba63c0dd98}</UniqueIdentifier>
     </Filter>
@@ -99,6 +96,30 @@
     </Filter>
     <Filter Include="源文件\Market">
       <UniqueIdentifier>{03a024c2-bd33-44ed-8282-7006b2928a0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Flyweight">
+      <UniqueIdentifier>{3afa61f4-a2ca-4469-b8be-6b97b06d993c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Flyweight">
+      <UniqueIdentifier>{9b500829-fa1e-4785-a149-4c4f4c3dbe13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Processing\strategyDesign">
+      <UniqueIdentifier>{92d0a84f-f418-45fd-9293-53e444cbe2e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Facade">
+      <UniqueIdentifier>{affd3f75-dcaf-48e7-b8ee-a8da54da85fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Mediator">
+      <UniqueIdentifier>{13415a1c-6f85-4d6b-abf6-02f0d63a9be7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Mediator">
+      <UniqueIdentifier>{a00ce3eb-61e3-4e8d-8c66-0c601aaa59be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Command">
+      <UniqueIdentifier>{ebdc170f-d269-4ae0-8fcd-67f5c4500f15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Command">
+      <UniqueIdentifier>{10fbd1d0-5a50-41c0-b08d-2cae9f3bcc47}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -213,6 +234,7 @@
     <ClCompile Include="sellerImpl.cpp">
       <Filter>源文件\Market</Filter>
     </ClCompile>
+<<<<<<< HEAD
     <ClCompile Include="BuilderTest.cpp">
       <Filter>源文件\Test</Filter>
     </ClCompile>
@@ -220,6 +242,39 @@
       <Filter>源文件\Test</Filter>
     </ClCompile>
     <ClCompile Include="ProxyTest.cpp">
+=======
+    <ClCompile Include="Flyweight.cpp">
+      <Filter>源文件\Flyweight</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyweightManage.cpp">
+      <Filter>源文件\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessingCattle.cpp">
+      <Filter>源文件\Processing\strategyDesign</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessingChicken.cpp">
+      <Filter>源文件\Processing\strategyDesign</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessingPig.cpp">
+      <Filter>源文件\Processing\strategyDesign</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessFactory.cpp">
+      <Filter>源文件\Processing\strategyDesign</Filter>
+    </ClCompile>
+    <ClCompile Include="StrategyProcessing.cpp">
+      <Filter>源文件\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="MediatorManage.cpp">
+      <Filter>源文件\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Person.cpp">
+      <Filter>源文件\Mediator</Filter>
+    </ClCompile>
+    <ClCompile Include="LogManager.cpp">
+      <Filter>源文件\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandManage.cpp">
+>>>>>>> fac9122c20c96c70dd56d71cfc81d82de67cdddc
       <Filter>源文件\Test</Filter>
     </ClCompile>
   </ItemGroup>
@@ -237,7 +292,7 @@
       <Filter>头文件\Test</Filter>
     </ClInclude>
     <ClInclude Include="Center factory.h">
-      <Filter>头文件\Appearance</Filter>
+      <Filter>头文件\Facade</Filter>
     </ClInclude>
     <ClInclude Include="Visitor.h">
       <Filter>头文件\Visitor</Filter>
@@ -271,6 +326,18 @@
     </ClInclude>
     <ClInclude Include="Market.h">
       <Filter>头文件\Market</Filter>
+    </ClInclude>
+    <ClInclude Include="Flyweight.h">
+      <Filter>头文件\Flyweight</Filter>
+    </ClInclude>
+    <ClInclude Include="strategyDesign.h">
+      <Filter>头文件\Processing</Filter>
+    </ClInclude>
+    <ClInclude Include="Person.h">
+      <Filter>头文件\Mediator</Filter>
+    </ClInclude>
+    <ClInclude Include="LogManager.h">
+      <Filter>头文件\Command</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

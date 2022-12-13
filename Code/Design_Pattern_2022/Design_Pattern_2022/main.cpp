@@ -40,9 +40,11 @@ int main()
 			ComposeProcessing_Client();
 			break;
 		case 7:
+			//测试备忘录模式
 			factory();
 			break;
 		case 8:
+			//测试观察者模式
 			market();
 			break;
 		case 9:
@@ -50,8 +52,10 @@ int main()
 			Bridge_Manage();
 			break;
 		case 10:
+			//测试外观模式
 			Facade();
 			break;
+<<<<<<< HEAD
 		case 11:
 			//测试建造者模式
 			buildertest();
@@ -63,6 +67,12 @@ int main()
 		case 13:
 			//测试代理模式
 			proxytest();
+=======
+			//测试享元模式
+		case 11:
+			Flyweight();
+			break;
+>>>>>>> fac9122c20c96c70dd56d71cfc81d82de67cdddc
 		default:
 			break;
 		}
