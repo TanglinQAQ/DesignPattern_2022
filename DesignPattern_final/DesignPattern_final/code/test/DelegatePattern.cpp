@@ -8,5 +8,5 @@ void DelegatePattern_Client()
 	cout << "********" << "给加工厂负责人传话" << "********" << endl;
 	Man1* m1 = new Man1();
 	cout << "\n# 使用委托模式：传话\n";
-	m1->processing("今天我要加工这群牛");
+	m1->processing("今天我要加工这群牛，鸡，猪");
 }

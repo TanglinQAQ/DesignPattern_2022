@@ -42,5 +42,5 @@ private:
 	int _times;
 };
 
-#endif //_INTERPRET_H_
+#endif 
 
